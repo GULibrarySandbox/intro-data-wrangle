@@ -46,3 +46,5 @@ defaults:
       layout: "default"
 # Build settings
 markdown: kramdown
+
+theme: jekyll-theme-cayman
