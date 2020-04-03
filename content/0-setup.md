@@ -3,20 +3,20 @@ title: Setup
 nav: true
 --- 
 
-### Background
+## Background
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
 
 It runs inside your Web browser, but no web connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once data has been read into OpenRefine, however, no further connection is needed work with it.
 
-## Features of OpenRefine
+#### Features of OpenRefine
   
 - Open source collaboratively developed software (OpenRefine source code is housed on GitHub
 - A growing community of users worldwide, from novice to expert, ready to help.
 - Works with large datasets, i.e. those greater than 100,000 rows.
 - Can adjust memory allocation to accommodate larger datasets.  
 
-## Things you can use OpenRefine for
+#### Things you can use OpenRefine for
 
 - Identifying where data is missing
 - Identifying and fixing inconsistencies in data
@@ -31,7 +31,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 
 ## Setup
 
-### Getting the software for the lesson
+#### Getting the software for the lesson
 
 Installing OpenRefine on your own Windows computer may require two things:
 
@@ -54,7 +54,7 @@ Installing OpenRefine on your own Windows computer may require two things:
 
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
 
-### Troubleshooting
+#### Troubleshooting
 
 You may also need to install Java for Windows
 
@@ -76,14 +76,14 @@ You may also need to install Java for Windows
 
 https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/
 
-### Getting the data for the lesson
+#### Getting the data for the lesson
 
 Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from this [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
 to your **Downloads** folder. We will then import that data into OpenRefine.
 
 Alternately, when you launch OpenRefine, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv)
 
-### Getting help
+#### Getting help
 
 **Online**
 
