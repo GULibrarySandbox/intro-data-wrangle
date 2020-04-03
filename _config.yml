@@ -13,7 +13,7 @@ title-icon:
 description: "A workshop for learning basic data wrangling skills"
 keywords: "OpenRefine, data, data wrangling, data cleaning, workshop"
 featured-image: "/images/GC_Campus_LM-3181.jpg"
-# Need to change the image above
+
 # author settings for cc-by, appears in the footer
 author: Sharron Stapleton
 pub_year: 2020
@@ -21,12 +21,12 @@ github_username: stapletonsl
 # Need to add acknowledgement to Evan Wills
 
 # add the full url for the github repository
-repo: "https://stapletonsl.github.io/data-wrangle-intro-workshop/"
+repo: "https://github.com/stapletonsl/data-wrangle-intro-workshop/"
 
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://stapletonsl.github.io/training/
+url: https://stapletonsl.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
 baseurl: /data-wrangle-intro-workshop
