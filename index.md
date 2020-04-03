@@ -3,7 +3,7 @@ title: Home
 layout: default
 ---
 
-# Bootstrap Workshop Template!
+# Data Wrangling
 
 {% include figure.html img="uidaho-workshop.jpg" alt="intro image here" caption="Library workshop" width="75%" %}
 
