@@ -3,8 +3,6 @@ title: Setup
 nav: true
 --- 
 
-# Data Wrangling using OpenRefine for Humanities and Social Sciences (HASS)
-
 ### Background
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
