@@ -3,7 +3,7 @@ title: Intro
 nav: true
 ---
 ## Background
-{% include figure.html img="OpenRefine.JPG" width="75%" %}
+{% include figure.html img="OpenRefine.JPG" %}
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
 
