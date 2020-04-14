@@ -48,11 +48,11 @@ Installing OpenRefine on your own Windows computer may require two things:
 
 - Go to your newly created OpenRefine directory.
 
-- Move the folder to  `C:\program files`.
+- Move the folder to `c:\program files`.
 
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 
-- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at http://127.0.0.1:3333/ or http://localhost:3333 to launch the program.
+- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/] (http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
 #### Troubleshooting
 
@@ -68,7 +68,7 @@ You may also need to install Java for Windows
 
 - Select Windows Offline (64-bit) version
 
-- Choose the folder location. Save the file to c:\program files\
+- Choose the folder location. Save the file to `c:\program files\`
 
 - Close all applications including the browser.
 
