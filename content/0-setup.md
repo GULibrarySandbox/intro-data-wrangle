@@ -42,7 +42,7 @@ You may also need to install Java for Windows
 - Doubleclick to launch OpenRefine
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
   
-### MAC Troubleshooting
+### Mac Troubleshooting
 - If OpenRefine doesn’t open due to security settings go to:
   - `System Preferences> security & privacy >` see message re: OpenRefine
   - select Open anyway
@@ -63,7 +63,7 @@ to your `Downloads` folder. We will then import that data into OpenRefine.
 
 Alternately, when you launch OpenRefine, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv)
 
-## Getting help
+## Get help
 
 ### Online
 
