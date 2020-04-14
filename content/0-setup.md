@@ -6,7 +6,7 @@ nav: true
 1. Download & install software
 2. Download data
 
-### 1. Get software
+### 1. Download & install software
 
 Note box
 Installing OpenRefine on your own Windows computer may require two things:
@@ -56,7 +56,7 @@ You may also need to install Java for Windows
 -Type `./refine` into the terminal within the OpenRefine directory
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
-#### Getting the data for the lesson
+## 2. Download the data
 
 Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from this [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
 to your `Downloads` folder. We will then import that data into OpenRefine.
