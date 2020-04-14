@@ -7,14 +7,14 @@ nav: true
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
 
-It runs inside your Web browser, but no web connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once data has been read into OpenRefine, however, no further connection is needed work with it.
+It runs inside your Web browser, but no web connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once data has been read into OpenRefine, no further connection is needed work with it.
 
 #### Features of OpenRefine
   
-- Open source collaboratively developed software (OpenRefine source code is housed on GitHub
-- A growing community of users worldwide, from novice to expert, ready to help.
-- Works with large datasets, i.e. those greater than 100,000 rows.
-- Can adjust memory allocation to accommodate larger datasets.  
+- Open source collaboratively developed software (OpenRefine source code is housed on GitHub)
+- A growing community of users worldwide, from novice to expert, ready to help
+- Works with large datasets, i.e. those greater than 100,000 rows
+- Can adjust memory allocation to accommodate larger datasets 
 
 #### Things you can use OpenRefine for
 
@@ -36,7 +36,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 Installing OpenRefine on your own Windows computer may require two things:
 
 - A JAVA install
-- Moving the OpenRefine program folder to `C:\program files`. You will need administrator privileges to do that in some cases.
+- Moving the OpenRefine program folder to `C:\program files`. You may need administrator privileges to do this.
 
 **Windows**
 
@@ -44,7 +44,7 @@ Installing OpenRefine on your own Windows computer may require two things:
 
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 
-- Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`. Name that directory something like OpenRefine.
+- Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`.   Name that directory something like OpenRefine.
 
 - Go to your newly created OpenRefine directory.
 
@@ -62,9 +62,9 @@ You may also need to install Java for Windows
 
 - Select appropriate bit download
 
-(32-bit via: https://www.java.com/en/download/ 
+(32-bit via: https://www.java.com/en/download/)
 
-(64-bit  via:  https://www.java.com/en/download/manual.jsp  and
+(64-bit  via:  https://www.java.com/en/download/manual.jsp)  and
 
 - Select Windows Offline (64-bit) version
 
