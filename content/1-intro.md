@@ -18,18 +18,42 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 
 #### Things you can use OpenRefine for
 
-- Identifying where data is missing
-- Identifying and fixing inconsistencies in data
-- Splitting columns or rows of data up into more granular parts
+{% capture text %}
+- identify where data is missing
+- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
+- find and remove duplicate observations
+- organise data
+- {% endcapture %} {% include card.md header="Clean & standardise data" text=text %}
+
+{% capture text %}
+- identify where data is missing
+- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
+- find and remove duplicate observations
+- organise data
+- {% endcapture %} {% include card.md header="Extend & enhance data" text=text %}
+
+{% capture text %}
+- identify where data is missing
+- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
+- find and remove duplicate observations
+- organise data
+- {% endcapture %} {% include card.md header="Explore data prior to analysis" text=text %}
+
+{% capture text %}
+- identify where data is missing
+- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
+- find and remove duplicate observations
+- organise data
+- {% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
+
+Splitting columns or rows of data up into more granular parts
 - Merging columns or rows of data
 - Combining multiple datasets into one
 - Repeating the same step many times with different data
 - Opening a dataset that is too large for Excel
 - Tracking changes made to data
-- Changing case within a column
 - Exporting the steps as a reusable script
-
-
+transform : combine values or reshape data
 
 {% capture text %}Note:
 There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
