@@ -2,17 +2,18 @@
 title: Setup
 nav: true
 ---
-## Setup
+## Lesson setup steps
+1. Download & install software
+2. Download data
 
-#### Getting the software for the lesson
+### 1. Get software
 
+Note box
 Installing OpenRefine on your own Windows computer may require two things:
-
 - A JAVA install
 - Moving the OpenRefine program folder to `C:\program files`. You may need administrator privileges to do this.
 
-**Windows**
-
+### Windows
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`.   Name that directory something like OpenRefine.
@@ -21,7 +22,7 @@ Installing OpenRefine on your own Windows computer may require two things:
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
-**Windows Troubleshooting**
+### Windows Troubleshooting
 
 You may also need to install Java for Windows
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
@@ -34,19 +35,19 @@ You may also need to install Java for Windows
 - Double-click on the saved file icon to start the installation process.
   [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/) 
   
-**Mac**
+### Mac
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download latest software version from [http://openrefine.org](http://openrefine.org)
 - Drag icon into `Applications folder`
 - Doubleclick to launch OpenRefine
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
   
-**MAC Troubleshooting**
+### MAC Troubleshooting
 - If OpenRefine doesn’t open due to security settings go to:
   - `System Preferences> security & privacy >` see message re: OpenRefine
   - select Open anyway
 
-**Linux**
+### Linux
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
@@ -64,13 +65,13 @@ Alternately, when you launch OpenRefine, you can import the data directly from a
 
 #### Getting help
 
-**Online**
+### Online
 
 You can find out more at the [OpenRefine](http://openrefine.org) website and check out some great introductory videos. These videos and others on OpenRefine can also be found on YouTube - use the search term 'OpenRefine'.
 
 There is a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer a lot of beginner questions and problems.
 
-**At Griffith University**
+### At Griffith University
 
 Help is available at Griffith [Hacky Hour & Library Researcher Support](https://hackyhourgriffith.wordpress.com/) sessions, Thursdays between 2-3pm alternating weeks at Gold Coast and Nathan campuses.  Grab a free coffee and we can help you.
 
