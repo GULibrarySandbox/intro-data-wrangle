@@ -48,7 +48,7 @@ Installing OpenRefine on your own Windows computer may require two things:
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
-#### Troubleshooting
+**Windows Troubleshooting**
 
 You may also need to install Java for Windows
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
@@ -68,7 +68,7 @@ You may also need to install Java for Windows
 - Doubleclick to launch OpenRefine
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
   
-### Troubleshooting
+**MAC Troubleshooting**
 - If OpenRefine doesn’t open due to security settings go to:
   - `System Preferences> security & privacy >` see message re: OpenRefine
   - select Open anyway
