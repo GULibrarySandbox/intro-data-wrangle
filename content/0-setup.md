@@ -4,7 +4,7 @@ nav: true
 ---
 # Setup
 
-### Download & install software
+## Download & install software
 
 ### Windows
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
