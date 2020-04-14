@@ -41,37 +41,25 @@ Installing OpenRefine on your own Windows computer may require two things:
 **Windows**
 
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
-
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
-
 - Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`.   Name that directory something like OpenRefine.
-
 - Go to your newly created OpenRefine directory.
-
 - Move the folder to `c:\program files`.
-
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
-
-- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/] (http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
+- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
 #### Troubleshooting
 
 You may also need to install Java for Windows
-
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
 
 - Select appropriate bit download
-
 32-bit via: [https://www.java.com/en/download/](https://www.java.com/en/download/)
-
 64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and
 
 - Select Windows Offline (64-bit) version
-
 - Choose the folder location. Save the file to `c:\program files\`
-
 - Close all applications including the browser.
-
 - Double-click on the saved file icon to start the installation process.
 
 [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/) 
