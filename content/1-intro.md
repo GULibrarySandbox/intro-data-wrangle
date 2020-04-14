@@ -3,7 +3,7 @@ title: Intro
 nav: true
 ---
 ## Background
-
+{% include figure.html img="OpenRefine.JPG" width="75%" %}
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
 
 It runs inside your Web browser, but no web connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once data has been read into OpenRefine, no further connection is needed work with it.
