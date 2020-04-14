@@ -54,8 +54,7 @@ You may also need to install Java for Windows
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
 - Select appropriate bit download
   - 32-bit via: [https://www.java.com/en/download/](https://www.java.com/en/download/)
-  - 64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and
-  - Select Windows Offline (64-bit) version
+  - 64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and select Windows Offline (64-bit) version
 - Choose the folder location. Save the file to `c:\program files\`
 - Close all applications including the browser.
 - Double-click on the saved file icon to start the installation process.
