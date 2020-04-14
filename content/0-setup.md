@@ -9,8 +9,7 @@ nav: true
 {% capture text %}Note:
 Installing OpenRefine on your own Windows computer may require two things:
 - A JAVA install
-- Moving the OpenRefine program folder to `C:\program files`. You may need administrator privileges to do this.
-{% endcapture %}
+- Moving the OpenRefine program folder to `C:\program files`. You may need administrator privileges to do this.{% endcapture %}
 {% include alert.md text=text color=secondary %}
 
 ### Windows
