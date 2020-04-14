@@ -6,10 +6,12 @@ nav: true
 
 ### Download & install software
 
-Note box
+{% capture text %}Note:
 Installing OpenRefine on your own Windows computer may require two things:
 - A JAVA install
 - Moving the OpenRefine program folder to `C:\program files`. You may need administrator privileges to do this.
+{% endcapture %}
+{% include alert.md text=text color=secondary %}
 
 ### Windows
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
