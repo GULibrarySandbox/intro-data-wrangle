@@ -55,13 +55,11 @@ You may also need to install Java for Windows
 - Select appropriate bit download
 32-bit via: [https://www.java.com/en/download/](https://www.java.com/en/download/)
 64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and
-
 - Select Windows Offline (64-bit) version
 - Choose the folder location. Save the file to `c:\program files\`
 - Close all applications including the browser.
 - Double-click on the saved file icon to start the installation process.
-
-[https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/) 
+  [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/) 
 
 #### Getting the data for the lesson
 
