@@ -62,9 +62,9 @@ You may also need to install Java for Windows
 
 - Select appropriate bit download
 
-32-bit via:[https://www.java.com/en/download/](https://www.java.com/en/download/)
+32-bit via: [https://www.java.com/en/download/](https://www.java.com/en/download/)
 
-64-bit via:[https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and
+64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and
 
 - Select Windows Offline (64-bit) version
 
@@ -79,7 +79,7 @@ You may also need to install Java for Windows
 #### Getting the data for the lesson
 
 Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from this [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
-to your **Downloads** folder. We will then import that data into OpenRefine.
+to your `Downloads` folder. We will then import that data into OpenRefine.
 
 Alternately, when you launch OpenRefine, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv)
 
@@ -93,7 +93,7 @@ There is a [Google Group](https://groups.google.com/forum/#!forum/openrefine)�
 
 **At Griffith University**
 
-Help is available at Griffith [Hacky Hour](https://hackyhourgriffith.wordpress.com/) sessions, Thursdays between 2-3pm alternating weeks at Gold Coast and Nathan campuses.  Grab a free coffee and we can help you.
+Help is available at Griffith [Hacky Hour & Library Researcher Support](https://hackyhourgriffith.wordpress.com/) sessions, Thursdays between 2-3pm alternating weeks at Gold Coast and Nathan campuses.  Grab a free coffee and we can help you.
 
 [NEXT -->](data-wrangling-intro-for-hass-2.md)
 
