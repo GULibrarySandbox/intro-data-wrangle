@@ -7,7 +7,7 @@ nav: true
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
 
-It runs inside your Web browser, but no web connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once data has been read into OpenRefine, no further internet connection is needed.
+It runs inside your Web browser, but no internet connection is needed to use it, unless you want to bring in Web-based data for cleaning. Once web-based data has been read into OpenRefine, no further internet connection is needed.
 
 #### Features of OpenRefine
   
