@@ -33,7 +33,7 @@ along with a number representing how many times that value occurs in the column.
 
 2. Which months have the highest and lowest traffic related accidents?
 
-{% include modal.md button="Solution" color="success" title="Activity solution" text="1. Name is alphabetical, and count is largest at top of list.
+{% include modal.md button="Solution" color="success" title="Activity 1 solution" text="1. Name is alphabetical, and count is largest at top of list.
 
 > 2. May highest, January lowest." %}
 
@@ -105,10 +105,10 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 
 > **Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
-#### Exercise:  Using Facets find what data is missing in `Crash_Type` column
-Find out how many records are missing crash type data?
+#### Activity - what data is missing in `Crash_Type` column
+Use facets to find out how many records are missing crash type data?
 
-{% include modal.md button="Solution" color="success" title="Activity solution" text="Select Facet > Customized facets > Facet by Blank or Null
+{% include modal.md button="Solution" color="success" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
 
 > Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." %}
 
