@@ -1,5 +1,5 @@
 
 ---
-title: Facets
+title: Filter
 nav: true
 ---
