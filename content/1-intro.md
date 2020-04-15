@@ -16,7 +16,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - Works with large datasets, i.e. those greater than 100,000 rows
 - Can adjust memory allocation to accommodate larger datasets 
 
-#### Things you can use OpenRefine for
+#### Tasks you can use OpenRefine for
 
 {% capture text %}
 - identify where data is missing
@@ -32,7 +32,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - combine values from two or more variables (concatenation)
 - add new variables (columns) or observations (rows) to a dataset
 - reshape data from rows and columns to visualise data in a different arrangement
-- organise data{% endcapture %} {% include card.md header="Extend & transform data" text=text %}
+- organise data{% endcapture %} {% include card.md header="Extend & transform data" text=text img="ORScript.JPG" %}
 
 {% capture text %}
 - sort by variables and values
