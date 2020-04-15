@@ -108,7 +108,7 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 #### Activity - what data is missing in `Crash_Type` column
 Use facets to find out how many records are missing crash type data?
 
-{% include modal.md button="Solution 2" color="success" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null" %}
+{% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null" color="success" %}
 
 ### Fixing data in bulk via Common Transformations
 
