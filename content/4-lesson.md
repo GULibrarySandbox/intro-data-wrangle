@@ -112,7 +112,6 @@ Use facets to find out how many records are missing crash type data?
 
 > Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." %}
 
-
 ### Fixing data in bulk via Common Transformations
 
 #### Trim Leading and trailing whitespace using facets
