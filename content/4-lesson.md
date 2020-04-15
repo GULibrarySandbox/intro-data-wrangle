@@ -32,10 +32,8 @@ along with a number representing how many times that value occurs in the column.
 1. Try sorting this facet by name and by count. How are they sorted?
 
 2. Which months have the highest and lowest traffic related accidents?
-
-{% include modal.md button="Solution" color="success" title="Activity 1 solution" text="1. Name is alphabetical, and count is largest at top of list.
-
-> 2. May highest, January lowest." %}
+.........
+;;;;;;;;;
 
 Close facet by clicking the `x` in top corner of the Facet panel. Always close facets when you are finished with them,
 so as not to affect future facets.
