@@ -24,7 +24,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - find and correct errors inlcuding misspellings, typos, whitespace
 - find and remove duplicate observations
 - identify and fix illegal values (data that does not fall within the accepted range for the variable)
-- map the meaning of the dataset to its structure ['tidy data'](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html){% endcapture %} {% include card.md header="Clean & standardise data" text=text img="MessyData.JPG" %}
+- map the meaning of the dataset to its structure ['tidy data'](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html){% endcapture %} {% include card.md header="Clean & standardise data" text=text %}
 
 {% capture text %}
 - Split columns or rows of data up into more granular parts
@@ -42,9 +42,9 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 
 {% capture text %}
 - document all steps taken to process the data
-- create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text img="ORScript.JPG" %}
+- create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
 
-
+{% include figure.html img="MessyData.jpg" alt="Messy Data" caption="Messy Data" width="75%" %}
 {% capture text %}Note:
 There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
 If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
