@@ -2,8 +2,8 @@
 title: Facets
 nav: true
 ---
-# Facets & Clustering – common transformations
-
+# Facets & Clustering 
+### Facets
 The first feature we will explore is Facets. This is a useful feature of OpenRefine and can help you:
 - get an overview of the data in a project
 - get counts of data in specific columns
@@ -18,7 +18,7 @@ The first facet we will use is a 'Text facet'. It groups all the identical text 
 and the number of records in which that value appears. Facet information always appears in the left-hand panel 
 in the OpenRefine interface.
 
-### Activity 6 – Looking at data through Facets
+#### Activity – Looking at data through Facets
 
 Here we will use faceting to look at the values represented in the `Crash_Month` column.
 
@@ -36,15 +36,6 @@ along with a number representing how many times that value occurs in the column.
 {% include modal.md button="Solution" color="success" title="Activity solution" text="1. Name is alphabetical, and count is largest at top of list.
 
 > 2. May highest, January lowest." %}
-> -------------------
-
-> #### Solution
-
-> 1. Name is alphabetical, and count is largest at top of list.
-
-> 2. May highest, January lowest.
-
-> -------------------------
 
 Close facet by clicking the `x` in top corner of the Facet panel. Always close facets when you are finished with them,
 so as not to affect future facets.
@@ -53,7 +44,7 @@ Let's look at how we can amend data with Facets.
 
 We want to limit to a sub-set of this data, with records about crashes which resulted in fatalities or hospitalisation.
 
-### Activity 7 - Amending data through Facets
+#### Activity - Amending data through Facets
 
 Scroll to `Crash_Severity` Column.
 
@@ -80,7 +71,7 @@ How many records are now available? (27528)
 
 Close the facet.
 
-### Activity 8 – fixing errors with Facets
+#### Activity – fixing errors with Facets
 
 We can also edit values using the facets feature. We will use faceting to look at the `Crash_Day_of_Week Column`.
 
@@ -92,7 +83,7 @@ How many days of the week are represented now?
 
 Close facet
 
-### More on Facets
+#### More on Facets
 
 As well as 'Text facets' and 'timeline facets', OpenRefine also supports other types of facet. These include:
 
@@ -115,17 +106,12 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 > **Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 #### Exercise:  Using Facets find what data is missing in `Crash_Type` column
+Find out how many records are missing crash type data?
 
-Work with your neighbour to find out how many records are missing crash type data?
+{% include modal.md button="Solution" color="success" title="Activity solution" text="Select Facet > Customized facets > Facet by Blank or Null
 
-> -----------------------------
-> #### Solution
+> Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." %}
 
-> Select Facet > Customized facets > Facet by Blank or Null
-
-> Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information.
-
-> -------------------------------------------------
 
 ### Fixing data in bulk via Common Transformations
 
@@ -133,7 +119,7 @@ Work with your neighbour to find out how many records are missing crash type dat
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
-#### Activity 9 – Common transformations
+#### Activity – Common transformations
 
 Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
 
