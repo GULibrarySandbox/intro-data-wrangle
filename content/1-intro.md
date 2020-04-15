@@ -46,12 +46,3 @@ It runs inside your Web browser, but no internet connection is needed to use it,
 
 {% include figure.html img="MessyData.JPG" alt="Messy Data" caption="Messy Data" width="100%" %}
 {% include figure.html img="TidyData.JPG" alt="Clean Data" caption="Clean Data" width="100%" %}
-{% capture text %}Note:
-There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
-If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
-All content must follow the [community guidelines](https://help.github.com/articles/github-community-guidelines/), e.g. no violence, obscene sex, or illegal stuff.{% endcapture %}
-{% include alert.md text=text color=secondary %}
-
-
-
-It is a better [Open Educational Resource](https://en.wikipedia.org/wiki/Open_educational_resources){:target='_blank'} since anyone can easily fork and adapt!
