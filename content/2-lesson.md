@@ -17,7 +17,7 @@ OpenRefine works with a variety of file types, including tab separated (`tsv`), 
 
 Once OpenRefine is launched in your browser, the home screen displays options to **Create Project**, **Open Project**, or **Import Project**. Select **Create a project**.
 
-#### If launch fails
+##### If launch fails
 
 If OpenRefine does not automatically open within your browser after launch, point your browser at `http://127.0.0.1:3333/` or `http://localhost:3333` to launch the program.
 {% capture alert %}Note: Keep the terminal window hosting Java open the in the background.{% endcapture %} {% include alert.md text=alert color="warning" %}
