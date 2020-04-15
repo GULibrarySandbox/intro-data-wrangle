@@ -1,4 +1,3 @@
-
 ---
 title: Filter
 nav: true
