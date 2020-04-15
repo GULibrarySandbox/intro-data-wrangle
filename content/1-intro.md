@@ -22,8 +22,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - identify where data is missing
 - fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
 - find and remove duplicate observations
-- organise data
-- {% endcapture %} {% include card.md header="Clean & standardise data" text=text %}
+- organise data{% endcapture %} {% include card.md header="Clean & standardise data" text=text img="MessyData.JPG" %}
 
 {% capture text %}
 - identify where data is missing
