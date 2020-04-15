@@ -44,7 +44,7 @@ Projects can be created in a variety of ways, e.g., by uploading data from your 
 
 ### Data preview
 
-OpenRefine gives you a preview to show you how it has interpreted the file you have uploaded or imported. If your data was tab- rather than comma-delimited, the preview might look strange. Be sure the correct separator is displayed in the box shown. If you have made any changes, click Update Preview (bottom left). If the wrong file is displaying, click <<Start Over (upper left).
+OpenRefine gives you a preview to show you how it has interpreted the file you have uploaded or imported. If your data was tab- rather than comma-delimited, the preview might look strange. Be sure the correct separator is displayed in the box shown. If you have made any changes, click **Update Preview** (bottom left). If the wrong file is displaying, click **<<Start Over** (upper left).
 
 There are options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data. Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
 
