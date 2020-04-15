@@ -68,10 +68,3 @@ There is aâ€¯[Google Group](https://groups.google.com/forum/#!forum/openrefine)â
 
 Help is available at Griffith [Hacky Hour & Library Researcher Support](https://hackyhourgriffith.wordpress.com/) sessions, Thursdays between 2-3pm alternating weeks at Gold Coast and Nathan campuses.  Grab a free coffee and we can help you.
 Or get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
-
-[NEXT -->](data-wrangling-intro-for-hass-2.md)
-
-
-
-
-
