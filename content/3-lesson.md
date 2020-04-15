@@ -2,9 +2,7 @@
 title: Content
 nav: true
 ---
-# The Layout of OpenRefine, Rows vs Records
-
-### Explore the layout of OpenRefine
+# The Layout of OpenRefine
 
 OpenRefine displays data in a tabular format. Each row will usually represent a 'record' or 'observation' in the data, 
 while each column represents a type of information or 'variable'. This is very similar to how you might view data 
