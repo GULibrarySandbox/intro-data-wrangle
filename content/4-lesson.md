@@ -1,4 +1,4 @@
 ---
-title: Lesson 2
+title: Facets
 nav: true
 ---
