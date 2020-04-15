@@ -20,39 +20,33 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 
 {% capture text %}
 - identify where data is missing
-- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
+- fix inconsistencies such as date formats, name case format and order
+- find and correct errors inlcuding misspellings, typos, whitespace
 - find and remove duplicate observations
-- organise data{% endcapture %} {% include card.md header="Clean & standardise data" text=text img="MessyData.JPG" %}
+- identify and fix illegal values (data that does not fall within the accepted range for the variable)
+- map the meaning of the dataset to its structure ['tidy data'](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html){% endcapture %} {% include card.md header="Clean & standardise data" text=text img="MessyData.JPG" %}
 
 {% capture text %}
-- identify where data is missing
-- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
-- find and remove duplicate observations
-- organise data
-- {% endcapture %} {% include card.md header="Extend & enhance data" text=text %}
+- Split columns or rows of data up into more granular parts
+- combine multiple datasets into one
+- combine values from two or more variables (concatenation)
+- add new variables (columns) or observations (rows) to a dataset
+- reshape data from rows and columns to visualise data in a different arrangement
+- organise data{% endcapture %} {% include card.md header="Extend & transform data" text=text %}
 
 {% capture text %}
-- identify where data is missing
-- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
-- find and remove duplicate observations
-- organise data
-- {% endcapture %} {% include card.md header="Explore data prior to analysis" text=text %}
+- sort by variables and values
+- agregrate: reorganise to get a summary of the data
+- filter: extract a subset by value
+- facet: summarise values to provide a big picture of your data or to identify outliers{% endcapture %} {% include card.md header="Explore data prior to analysis" text=text %}
 
 {% capture text %}
-- identify where data is missing
-- fix inconsistencies such as typos, date formats, misspellings, whitespace, name case & format
-- find and remove duplicate observations
-- organise data
-- {% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
+- annotate the data
+- create metadata for digital files
+- create folders and file name conventions
+- version control
+- develop codes and scripts to automate and repeat tasks{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
 
-Splitting columns or rows of data up into more granular parts
-- Merging columns or rows of data
-- Combining multiple datasets into one
-- Repeating the same step many times with different data
-- Opening a dataset that is too large for Excel
-- Tracking changes made to data
-- Exporting the steps as a reusable script
-transform : combine values or reshape data
 
 {% capture text %}Note:
 There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
