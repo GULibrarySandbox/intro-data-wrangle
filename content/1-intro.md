@@ -32,7 +32,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - combine values from two or more variables (concatenation)
 - add new variables (columns) or observations (rows) to a dataset
 - reshape data from rows and columns to visualise data in a different arrangement
-- organise data{% endcapture %} {% include card.md header="Extend & transform data" text=text img="ORScript.JPG" %}
+- organise data{% endcapture %} {% include card.md header="Extend & transform data" text=text %}
 
 {% capture text %}
 - sort by variables and values
@@ -42,7 +42,7 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 
 {% capture text %}
 - document all steps taken to process the data
-- create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
+- create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text img="ORScript.JPG" %}
 
 
 {% capture text %}Note:
