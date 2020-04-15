@@ -1,5 +1,5 @@
 ---
-title: Lesson 1
+title: Layout
 nav: true
 ---
 # The Layout of OpenRefine
