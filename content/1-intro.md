@@ -45,6 +45,7 @@ It runs inside your Web browser, but no internet connection is needed to use it,
 - create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
 
 {% include figure.html img="MessyData.JPG" alt="Messy Data" caption="Messy Data" width="100%" %}
+{% include figure.html img="TidyData.JPG" alt="Clean Data" caption="Clean Data" width="100%" %}
 {% capture text %}Note:
 There are *soft* limits and guidelines for gh-pages usage: sites should be < 1GB, use < 100GB bandwidth per month, and make < 10 builds per hour.
 If your site exceeds these quotas, GitHub will send you a notice asking you to modify the repository.
