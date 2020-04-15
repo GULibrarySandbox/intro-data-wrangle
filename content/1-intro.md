@@ -41,11 +41,8 @@ It runs inside your Web browser, but no web connection is needed to use it, unle
 - facet: summarise values to provide a big picture of your data or to identify outliers{% endcapture %} {% include card.md header="Explore data prior to analysis" text=text %}
 
 {% capture text %}
-- annotate the data
-- create metadata for digital files
-- create folders and file name conventions
-- version control
-- develop codes and scripts to automate and repeat tasks{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
+- document all steps taken to process the data
+- create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
 
 
 {% capture text %}Note:
