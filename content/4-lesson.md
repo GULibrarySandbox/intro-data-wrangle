@@ -21,8 +21,8 @@ The first facet to explore is `Text facet`. It groups all the identical text val
 and the number of records in which that value appears. Facet information always appears in the left-hand panel 
 in the OpenRefine interface.
 
-#### Activity – Looking at data through Facets
 
+{% capture text %}
 Here we will use faceting to look at the values represented in the  `Crash_Month` column.
 
 - Scroll over to the  `Crash_Month` column.
@@ -33,7 +33,8 @@ along with a number representing how many times that value occurs in the column.
 
 - Try sorting this facet by name and by count. How are they sorted? Name is alphabetical and count is largest first.
 - Which months have the highest and lowest traffic related accidents? May is the highest, January the lowest.
-- Close facet by clicking the `x` in top corner of the Facet panel. 
+- Close facet by clicking the `x` in top corner of the Facet panel.{% endcapture %} {% include card.md header="Activity – Looking at data through Facets" text=text %}
+
 
 {% capture alert %}*Note:* Always close facets when you are finished with them, so as not to affect future facets or results.
 {% endcapture %}
