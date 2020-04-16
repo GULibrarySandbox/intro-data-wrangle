@@ -88,9 +88,9 @@ Use facets to find out how many records are missing crash type data.
 
 --------
 
-### Fixing data in bulk via Common Transformations & Clustering
+### Common Transformations & Clustering
 
-### Trim Leading and trailing whitespace using facets & common transformation
+### Trim Leading and trailing whitespace
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
@@ -100,7 +100,7 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 - To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
 - There should now be five choices in your text facet.
 
-### Using Clustering to detect possible typing errors
+### Clustering
 
 Another very useful feature of OpenRefine is Clustering.  In OpenRefine, clustering means 'finding groups of different values that might be alternative representations of the same thing'. For example, the text strings 'New York', 'new york'  or 'New Yrok' very likely refer to the same concept.
 
