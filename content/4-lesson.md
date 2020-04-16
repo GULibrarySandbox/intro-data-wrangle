@@ -3,6 +3,9 @@ title: Facets
 nav: true
 ---
 # Facets & Clustering 
+
+--------
+
 ### Facets
 Faceting is a useful feature of OpenRefine and can help you:
 - get an overview of the data in a project
@@ -99,6 +102,8 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 - There should now be five choices in your text facet.
 
 Other common transformations include changing letter case, data formats and more.  Take a look at the other options with `Edit cells > Common transforms >` .
+
+--------
 
 ### Clustering
 
