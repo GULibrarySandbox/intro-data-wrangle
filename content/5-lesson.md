@@ -95,7 +95,7 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Filter  `Crash_Street`  by *Mary*
 - Filter  `Crash_Street_Intersection`  by *Miles St*
 - Examine results for similarities
-- Copy and paste  `Crash_Longitude`  value to the record *243929* missing the value.
+- Copy and paste the missing `Crash_Longitude`  value to record *243929*.
 
 ### Key Points
 
