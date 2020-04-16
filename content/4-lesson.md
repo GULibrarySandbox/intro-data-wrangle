@@ -40,12 +40,10 @@ along with a number representing how many times that value occurs in the column.
 {% endcapture %}
 {% include alert.md text=alert color="warning" %}
 
-#### Activity - Amending data through Facets
-
 You can also amend data with Facets.
 
-In this activity you want to limit to a sub-set of this data, with records about crashes which resulted in fatalities or hospitalisation.
-
+In this next activity you want to limit to a sub-set of this data, with records about *crashes* which resulted in *fatalities* or *hospitalisation*.
+{% capture text %}
 - Scroll to `Crash_Severity` Column.
 - Click the down arrow and choose `Facet > Text facet`. Unique values will be displayed in left hand panel.
 - Click on the choices in the facet, or hover over them, `edit` and `include` functions appear.
@@ -57,7 +55,8 @@ In this activity you want to limit to a sub-set of this data, with records about
 - Select `All column > Edit rows > Remove all matching rows`.
 - These two variables are now displayed in red and missing counts. Click reset.
 - How many records are now available? (27528)
-- Close the facet.
+- Close the facet.{% endcapture %} {% include card.md header="Activity - Amending data through Facets" text=text %}
+
 
 #### Activity – fixing errors with Facets
 
