@@ -21,23 +21,38 @@ It can be difficult to read, ingest and process data which has multiple values w
 
 First we will split data using the in-built programming capabilities of GREL within OpenRefine.  GREL stands for **General Refine Expression Language**. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
 
-The data in the  `Suburb_PostCode`  column has more than one value in each cell. The values include the suburb name and a postcode inside brackets. This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as brackets and leading (or trailing) whitespace.
+#### A bit about GREL syntax
+*From Library Carpentry*
+>The transformation you type into the ‘Expression’ box has to be a valid GREL expression. The simplest expression is simply the word ‘value’ by itself - which simply means the value that is currently in the column - that is: make no change.
+
+>GREL functions are written by giving a value of some kind (a text string, a date, a number etc.) to a GREL function. Some GREL functions take additional parameters or options which control how the function works. GREL supports two types of syntax:
+
+    value.function(options)
+    function(value, options)
+
+>Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used.
+
+
+The syntax is `command`, then, within round brackets, the value being replaced inside quote marks, then a comma, and then the value it is being replaced with, also inside quote marks. In this case, the second value is empty since we want to remove the bracket, i.e. replace the bracket with nothing. You do not need to add any spaces within the expression. If you do, and they appear inside the quote marks, they will be added or removed, depending on within which set of values they appear.
+
+You can use single or double quotes when forming expressions - what matters is that sets must match, i.e. if you start with a double quote, you must close with a double quote.
 
 #### Activity - transforming data using GREL
+
+Look at the data in  `Suburb_PostCode`  column.  It has more than one value in each cell. The values include the *suburb name* and a *postcode* inside brackets. This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as *brackets* and *leading (or trailing) whitespace*.
 
 Let's remove all the extra characters by using the GREL command  `value.replace`.
 
 `Value.replace`  is the command. What needs to be added to make the command work are what are called *arguments* in programming speak. In this case, the arguments are the values of *what* needs to be replaced, and then *what it needs to be replaced with*.
 
-Click the down arrow at the top of the  `Suburb_PostCode`  column.
+- Click the down arrow at the top of the  `Suburb_PostCode`  column.
+- Select  `Edit Cells > Transform ...` . 
 
-Select  `Edit Cells > Transform ...` . This will open a window in which you can enter a GREL expression. An expression is a combination of the *command* you will be using, plus the *arguments* you will be using to modify the command, i.e. the values that will be changed.
+This will open a window in which you can enter a GREL expression. An expression is a combination of the *command* you will be using, plus the *arguments* you will be using to modify the command, i.e. the values that will be changed.
 
-In the Expression box, type  `value.replace("(", "")` to remove all left brackets by replacing them with nothing.
+- In the Expression box, type  `value.replace("(", "")` to remove all left brackets by replacing them with nothing.
 
-The syntax is `command`, then, within round brackets, the value being replaced inside quote marks, then a comma, and then the value it is being replaced with, also inside quote marks. In this case, the second value is empty since we want to remove the bracket, i.e. replace the bracket with nothing. You do not need to add any spaces within the expression. If you do, and they appear inside the quote marks, they will be added or removed, depending on within which set of values they appear.
-
-You can use single or double quotes when forming expressions - what matters is that sets must match, i.e. if you start with a double quote, you must close with a double quote. 
+ 
 
 The **Preview** screen will display on the left the cell value as it is before transformation, and on the right, what the value will be after the expression has run. This allows you to correct any errors in writing the expression, e.g., adding spaces where they are not needed, using unmatching quote marks. Click OK.
 
