@@ -9,6 +9,9 @@ nav: true
 
 OpenRefine works with a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls, xlsx`), `JSON`, `XML`, `RDF as XML`, and `Google Spreadsheets`. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
+
+-----
+
 ### Launch OpenRefine
 
 **Windows**: double-click on the `openrefine.exe` file. Java services will start automatically on your machine, and OpenRefine will open in your browser. Be sure to use either Chrome or Firefox, as OpenRefine does not play well with Microsoft Edge or Safari.
@@ -24,6 +27,9 @@ Once OpenRefine is launched in your browser, the home screen displays options to
 If OpenRefine does not automatically open within your browser after launch, point your browser at `http://127.0.0.1:3333/` or `http://localhost:3333` to launch the program.
 {% capture alert %}Note: Keep the terminal window hosting Java open the in the background.{% endcapture %} {% include alert.md text=alert color="warning" %}
 {% include figure.html img="ORJava.JPG" alt="Terminal Java" caption="Keep the terminal window open when using OpenRefine" width="75%" %}
+
+
+-----
 
 ### Create a Project
 
@@ -44,6 +50,9 @@ Projects can be created in a variety of ways, e.g., by uploading data from your 
 - When a text box opens, enter this address `https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv`
 - Click **Next**.
 
+
+-----
+
 ### Data preview
 
 OpenRefine gives you a preview to show you how it has interpreted the file you have uploaded or imported. If your data was tab- rather than comma-delimited, the preview might look strange. Be sure the correct separator is displayed in the box shown. If you have made any changes, click **Update Preview** (bottom left). If the wrong file is displaying, click **<<Start Over** (upper left).
@@ -55,6 +64,9 @@ Make sure the `Parse cell text into numbers, dates,` ... box is not checked, so 
 Choose **UTF8** as the method of encoding as this should convert any 'smart' formatting into plain text.
 
 If all looks fine, click **Create Project**.
+
+
+-----
 
 ### Key Points
 
