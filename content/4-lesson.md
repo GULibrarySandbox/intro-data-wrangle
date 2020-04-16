@@ -4,7 +4,7 @@ nav: true
 ---
 # Facets & Clustering 
 ### Facets
-The first feature we will explore is Facets. This is a useful feature of OpenRefine and can help you:
+Faceting is a useful feature of OpenRefine and can help you:
 - get an overview of the data in a project
 - get counts of data in specific columns
 - help you identify missing, misspelled or inconsistent data.
@@ -14,7 +14,7 @@ A common use case for your data might be where you want to know how many times a
 A 'Facet' groups all the like values that appear in a column, and then allows you to filter the data by these values 
 and edit the values for a number of records in one go.
 
-The first facet we will use is a 'Text facet'. It groups all the identical text values in a column and lists each value 
+The first facet to explore is `Text facet`. It groups all the identical text values in a column and lists each value 
 and the number of records in which that value appears. Facet information always appears in the left-hand panel 
 in the OpenRefine interface.
 
@@ -27,9 +27,8 @@ Here we will use faceting to look at the values represented in the  `Crash_Mon
 
 In the left panel, you will now see a box containing every unique value in the `Crash_Month` column,
 along with a number representing how many times that value occurs in the column.
-
+Question:
 1. Try sorting this facet by name and by count. How are they sorted?
-
 2. Which months have the highest and lowest traffic related accidents?
 
 {% include modal.md button="Solution" color="success" title="Activity 1 solution" text="1. Name is alphabetical, and count is largest at top of list.
