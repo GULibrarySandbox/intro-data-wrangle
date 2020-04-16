@@ -88,17 +88,17 @@ Use facets to find out how many records are missing crash type data.
 
 --------
 
-### Common Transformations & Clustering
-
-### Trim Leading and trailing whitespace
+### Common Transformations
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
-#### Activity – Common transformations
+#### Activity – remove whitespace with common transformation
 
 - Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
 - To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
 - There should now be five choices in your text facet.
+
+Other common transformations include changing letter case, data formats and more.  Take a look at the other options with `Edit cells > Common transforms >` .
 
 ### Clustering
 
