@@ -7,6 +7,8 @@ nav: true
 
 (General Refine Expression Language)
 
+-----
+
 Transformations in OpenRefine enable manipulations of data in columns. Such types of changes include:
 
 - Splitting data from a single column into multiple columns (e.g., splitting an address into multiple parts) to enable tidy data – one variable per column.
