@@ -89,9 +89,9 @@ Use facets to find out how many records are missing crash type data?
 
 {% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
  Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
-{% include modal.md button="Solution 2" title={% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
- Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %} %}
-Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
+
+Activity 2 solution " text="Select Facet > Customized facets > Facet by Blank or Null.
+
 Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information."  ***This needs to be fixed.
 
 
@@ -124,6 +124,7 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 - Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
 - How many choices are now shown in the facet? 
+
 {% include modal.md button="Solution Y" title="Activity Y solution" text="Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
 - Close the facet.
 
