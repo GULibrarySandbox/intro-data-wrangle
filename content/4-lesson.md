@@ -95,10 +95,10 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 
 **Custom** facets provide a range of different facets including:
 
--**Word** facet - this breaks down text into words and counts the number of records each word appears in
--**Duplicates** facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
--**Text length** facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
--**Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
+- **Word** facet - this breaks down text into words and counts the number of records each word appears in
+- **Duplicates** facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
+- **Text length** facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
+- **Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 #### Activity - what data is missing in `Crash_Type` column
 Use facets to find out how many records are missing crash type data?
