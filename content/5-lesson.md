@@ -3,7 +3,7 @@ title: Filter
 nav: true
 ---
 
-## Filtering and Sorting
+# Filtering and Sorting
 
 ------
 
