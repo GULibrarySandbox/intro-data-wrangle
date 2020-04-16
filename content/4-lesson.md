@@ -88,27 +88,22 @@ Close facet
 As well as 'Text facets' and 'timeline facets', OpenRefine also supports other types of facet. These include:
 
 - Numeric facets
-
-- Custom facets (for numbers)
-
+- Customized facets
 - Scatterplot facets
 
-> **Numeric** and **Scatterplot** facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in Examining Numbers in OpenRefine.
+**Numeric** and **Scatterplot** facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in Examining Numbers in OpenRefine.
 
-> **Custom** facets provide a range of different facets. Some of the default custom facets are: (SHOW MENU)
+**Custom** facets provide a range of different facets including:
 
-> **Word** facet - this breaks down text into words and counts the number of records each word appears in
-
-> **Duplicates** facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
-
-> **Text length** facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
-
-> **Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
+-**Word** facet - this breaks down text into words and counts the number of records each word appears in
+-**Duplicates** facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
+-**Text length** facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
+-**Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 #### Activity - what data is missing in `Crash_Type` column
 Use facets to find out how many records are missing crash type data?
 
-{% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null" color="success" %}
+{% include modal.md button="Solution 2"title="Activity 2 solution"text="Select Facet > Customized facets > Facet by Blank or Null" color="success" %}
 
 ### Fixing data in bulk via Common Transformations
 
