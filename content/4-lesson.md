@@ -82,20 +82,15 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 - `Facet by blank` - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 #### Activity - what data is missing in `Crash_Type` column
-Use facets to find out how many records are missing crash type data?
 
-{% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
- Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
-
-Activity 2 solution " text="Select Facet > Customized facets > Facet by Blank or Null.
-
-Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information."  ***This needs to be fixed.
+Use facets to find out how many records are missing crash type data.
+- Select `Facet > Customized facets > Facet by Blank or Null`. Result 13
 
 --------
 
-# Fixing data in bulk via Common Transformations & Clustering
+### Fixing data in bulk via Common Transformations & Clustering
 
-### Trim Leading and trailing whitespace using facets
+### Trim Leading and trailing whitespace using facets & common transformation
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
@@ -105,7 +100,7 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 - To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
 - There should now be five choices in your text facet.
 
-### Using clustering to detect possible typing errors
+### Using Clustering to detect possible typing errors
 
 Another very useful feature of OpenRefine is Clustering.  In OpenRefine, clustering means 'finding groups of different values that might be alternative representations of the same thing'. For example, the text strings 'New York', 'new york'  or 'New Yrok' very likely refer to the same concept.
 
