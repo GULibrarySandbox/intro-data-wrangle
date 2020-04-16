@@ -3,6 +3,9 @@ title: Intro
 nav: true
 ---
 # Background
+
+-----
+
 {% include figure.html img="OpenRefine.JPG" alt="OpenRefine software" caption="OpenRefine" width="100%" %}
 
 [OpenRefine](http://openrefine.org) is a [Java](https://www.java.com/en/)-based program that runs on your computer (not online).
@@ -43,6 +46,8 @@ It runs inside your Web browser, but no internet connection is needed to use it,
 {% capture text %}
 - document all steps taken to process the data
 - create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
+
+Explore the two figures below to see examples of messy and clean tabular data.
 
 {% include figure.html img="MessyData.JPG" alt="Messy Data" caption="Messy Data" width="100%" %}
 {% include figure.html img="TidyData.JPG" alt="Clean Data" caption="Clean Data" width="100%" %}
