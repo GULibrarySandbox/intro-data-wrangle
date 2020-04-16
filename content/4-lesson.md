@@ -26,17 +26,15 @@ Here we will use faceting to look at the values represented in the  `Crash_Mon
 - Click the down arrow and choose  `Facet > Text facet`.
 
 In the left panel, you will now see a box containing every unique value in the `Crash_Month` column,
-along with a number representing how many times that value occurs in the column.
-Question:
-1. Try sorting this facet by name and by count. How are they sorted?
-2. Which months have the highest and lowest traffic related accidents?
+along with a number representing how many times that value occurs in the column.  At the top of the box you can sort the results by name and count. A great feature for exploring a large dataset.
 
-{% include modal.md button="Solution" color="success" title="Activity 1 solution" text="1. Name is alphabetical, and count is largest at top of list.
+- Try sorting this facet by name and by count. How are they sorted? Name is alphabetical and count is largest first.
+- Which months have the highest and lowest traffic related accidents? May is the highest, January the lowest.
+- Close facet by clicking the `x` in top corner of the Facet panel. 
 
-> 2. May highest, January lowest." %}
-
-- Close facet by clicking the `x` in top corner of the Facet panel. Always close facets when you are finished with them,
-so as not to affect future facets.
+{% capture alert %}*Note:* Always close facets when you are finished with them, so as not to affect future facets or results.
+{% endcapture %}
+{% include alert.md text=alert color="warning" %}
 
 #### Activity - Amending data through Facets
 
