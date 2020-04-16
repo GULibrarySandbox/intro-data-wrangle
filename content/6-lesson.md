@@ -21,17 +21,17 @@ First we will split data using the in-built programming capabilities of GREL wit
 
 The data in the  `Suburb_PostCode`  column has more than one value in each cell. The values include the suburb name and a postcode inside brackets. This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as brackets and leading (or trailing) whitespace.
 
-#### Activity 14: transforming data using GREL
+#### Activity - transforming data using GREL
 
-We are going to remove all the extra characters by using the GREL command `value.replace`.
+Let's remove all the extra characters by using the GREL command  `value.replace`.
 
-`Value.replace` is the command. What needs to be added to make the command work are what are called *arguments* in programming speak. In this case, the arguments are the values of *what* needs to be replaced, and then *what it needs to be replaced with*.
+`Value.replace`  is the command. What needs to be added to make the command work are what are called *arguments* in programming speak. In this case, the arguments are the values of *what* needs to be replaced, and then *what it needs to be replaced with*.
 
-Click the down arrow at the top of the `Suburb_PostCode` column.
+Click the down arrow at the top of the  `Suburb_PostCode`  column.
 
-Select `Edit Cells > Transform ...`    This will open a window in which you can enter a GREL expression. An expression is a combination of the command you will be using, plus the arguments you will be using to modify the command, i.e. the values that will be changed.
+Select  `Edit Cells > Transform ...` . This will open a window in which you can enter a GREL expression. An expression is a combination of the *command* you will be using, plus the *arguments* you will be using to modify the command, i.e. the values that will be changed.
 
-In the Expression box, type ``value.replace("(", "")` to remove all left brackets by replacing them with nothing.
+In the Expression box, type  `value.replace("(", "")` to remove all left brackets by replacing them with nothing.
 
 The syntax is `command`, then, within round brackets, the value being replaced inside quote marks, then a comma, and then the value it is being replaced with, also inside quote marks. In this case, the second value is empty since we want to remove the bracket, i.e. replace the bracket with nothing. You do not need to add any spaces within the expression. If you do, and they appear inside the quote marks, they will be added or removed, depending on within which set of values they appear.
 
