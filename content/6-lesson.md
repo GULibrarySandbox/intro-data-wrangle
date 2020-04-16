@@ -55,11 +55,13 @@ It is easy to re-use GREL expressions, as OpenRefine provides a history of comma
 - at `Suburb_PostCode` column, select `Edit cells > Transform ...`
 - click the *History* tab
 - click on the first *Reuse* option
-- click inside the expression box, change character `")",""` to `", ",","` *comma & space character* to *comma no space character
+- click inside the expression box, change character `")",""` to `", ",","` (i.e. comma & space character to comma no space character)
 - preview to check correctness
 - click  `OK`.
 
 Let's explore the `Suburb_PostCode` column to see which postcodes were the most or least prominent traffic crash locations.
+
+-----
 
 ### Splitting cells
 
@@ -80,6 +82,8 @@ Note how the numbering changes as you toggle – indicating that several rows ar
 
 It would be possible to use a text facet to see this data, but this is not the most efficient method.
 
+-----
+
 ### Undo and Redo
 
 It is common while exploring and cleaning a dataset to discover after you've made a change that you really should have done something else first. OpenRefine provides *Undo* and *Redo* operations to make this easy, no matter how far along you have gone.
@@ -96,6 +100,8 @@ Before moving on to the next lesson, *Undo* to the step before we first used GRE
 
 Go back to *Facet/filter tab*.
 
+-----
+
 ### Joining up GREL expression commands**
 
 Let's perform the earlier clean up steps and customised text faceting for `Suburb_PostCode` column. We can do this more efficiently by joining up the GREL expressions.
@@ -107,6 +113,8 @@ Let's perform the earlier clean up steps and customised text faceting for `Subur
 - in the Expression box, enter  `value.replace("(", "").replace(")", "").replace(", ", ",")`
 - click *Preview*
 - click `OK`
+
+-----
 
 ### Split multi value cells into multiple columns (tidy data)
 
