@@ -72,14 +72,14 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 - Customized facets
 - Scatterplot facets
 
-**Numeric** and **Scatterplot** facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in Examining Numbers in OpenRefine.
+`Numeric` and `Scatterplot` facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in Examining Numbers in OpenRefine.
 
-**Custom** facets provide a range of different facets including:
+`Custom` facets provide a range of different facets including:
 
-- **Word** facet - this breaks down text into words and counts the number of records each word appears in
-- **Duplicates** facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
-- **Text length** facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
-- **Facet by blank** - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
+- `Word` facet - this breaks down text into words and counts the number of records each word appears in
+- `Duplicates` facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
+- `Text length` facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
+- `Facet by blank` - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 #### Activity - what data is missing in `Crash_Type` column
 Use facets to find out how many records are missing crash type data?
@@ -91,10 +91,11 @@ Activity 2 solution " text="Select Facet > Customized facets > Facet by Blank or
 
 Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information."  ***This needs to be fixed.
 
+--------
 
-### Fixing data in bulk via Common Transformations
+# Fixing data in bulk via Common Transformations & Clustering
 
-#### Trim Leading and trailing whitespace using facets
+### Trim Leading and trailing whitespace using facets
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
@@ -102,11 +103,11 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 
 - Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
 - To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
-- You should now see only five choices in your text facet.
+- There should now be five choices in your text facet.
 
 ### Using clustering to detect possible typing errors
 
-Another very useful feature of OpenRefine is Clustering.  In OpenRefine, clustering means 'finding groups of different values that might be alternative representations of the same thing'. For example, the text strings 'New York', 'new york'  or 'New Yrok' (write on board) very likely refer to the same concept.
+Another very useful feature of OpenRefine is Clustering.  In OpenRefine, clustering means 'finding groups of different values that might be alternative representations of the same thing'. For example, the text strings 'New York', 'new york'  or 'New Yrok' very likely refer to the same concept.
 
 Clustering is a very powerful tool for identifying and fixing datasets which contain misspelled or mistyped entries.
 
@@ -114,18 +115,17 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 
 #### Activity – fixing errors via Clustering
 
-- Create a Text Facet for `Crash_Nature`, scroll through the list.  You will notice a number of values  that are likely mis-typed entries due to various factors.  (Ask for examples and reward with prizes).
+- Create a Text Facet for `Crash_Nature`, scroll through the list.  You will notice a number of values that are likely mis-typed entries due to various factors.
 - Click the `Cluster` button, on the top right of the facet. In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
 - Select the `key collision` method and `fingerprint` keying function. It should identify one cluster with 3 value options.
 - Click the `Merge?` box beside the cluster, then click `Merge Selected and Re-cluster` to apply the corrections to the dataset.
 - Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
-- How many choices are now shown in the facet? 
-
-{% include modal.md button="Solution Y" title="Activity Y solution" text="Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
+- How many choices are now shown in the facet? Depending on your merges, there may be 13 choices remaining.
 - Close the facet.
-
-*Important: Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find Struck by external load with Struck by internal load.  These are valid variables, do not merge these.*
+{% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find *Struck by external load* with *Struck by internal load*.  These are valid variables, there is no need to merge these.
+{% endcapture %}
+{% include alert.md text=alert color="warning" %}
 
 ### Different clustering algorithms
 
