@@ -22,16 +22,16 @@ It can be difficult to read, ingest and process data which has multiple values w
 First we will split data using the in-built programming capabilities of GREL within OpenRefine.  GREL stands for **General Refine Expression Language**. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
 
 #### A bit about GREL syntax
+
+The transformation you type into the ‘Expression’ box has to be a valid GREL expression. The simplest expression is simply the word ‘value’ by itself - which simply means the value that is currently in the column - that is: make no change.
+
+GREL functions are written by giving a value of some kind (a text string, a date, a number etc.) to a GREL function. Some GREL functions take additional parameters or options which control how the function works. GREL supports two types of syntax:
+
+    `value.function(options)`
+    `function(value, options)`
+
+Either is valid, and which is used is completely down to personal preference.
 *From Library Carpentry*
->The transformation you type into the ‘Expression’ box has to be a valid GREL expression. The simplest expression is simply the word ‘value’ by itself - which simply means the value that is currently in the column - that is: make no change.
-
->GREL functions are written by giving a value of some kind (a text string, a date, a number etc.) to a GREL function. Some GREL functions take additional parameters or options which control how the function works. GREL supports two types of syntax:
-
-    value.function(options)
-    function(value, options)
-
->Either is valid, and which is used is completely down to personal preference. In these notes the first syntax is used.
-
 
 The syntax is `command`, then, within round brackets, the value being replaced inside quote marks, then a comma, and then the value it is being replaced with, also inside quote marks. In this case, the second value is empty since we want to remove the bracket, i.e. replace the bracket with nothing. You do not need to add any spaces within the expression. If you do, and they appear inside the quote marks, they will be added or removed, depending on within which set of values they appear.
 
