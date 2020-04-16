@@ -20,11 +20,10 @@ in the OpenRefine interface.
 
 #### Activity – Looking at data through Facets
 
-Here we will use faceting to look at the values represented in the `Crash_Month` column.
+Here we will use faceting to look at the values represented in the  `Crash_Month` column.
 
-Scroll over to the `Crash_Month` column.
-
-Click the down arrow and choose `Facet > Text facet`.
+- Scroll over to the  `Crash_Month` column.
+- Click the down arrow and choose  `Facet > Text facet`.
 
 In the left panel, you will now see a box containing every unique value in the `Crash_Month` column,
 along with a number representing how many times that value occurs in the column.
@@ -37,51 +36,36 @@ along with a number representing how many times that value occurs in the column.
 
 > 2. May highest, January lowest." %}
 
-Close facet by clicking the `x` in top corner of the Facet panel. Always close facets when you are finished with them,
+- Close facet by clicking the `x` in top corner of the Facet panel. Always close facets when you are finished with them,
 so as not to affect future facets.
-
-Let's look at how we can amend data with Facets.
-
-We want to limit to a sub-set of this data, with records about crashes which resulted in fatalities or hospitalisation.
 
 #### Activity - Amending data through Facets
 
-Scroll to `Crash_Severity` Column.
+You can also amend data with Facets.
 
-Click the down arrow and choose `Facet > Text facet`.
+In this activity you want to limit to a sub-set of this data, with records about crashes which resulted in fatalities or hospitalisation.
 
-Unique values will be displayed in left hand panel.
-
-Notice that when you click on the choices in the facet, or hover over them, `edit` and `include` functions appear.
-
-Hover over values `Fatal and Hospitalisation` and use `include` function to narrow results just to those records.
-
-Check how many records display? Answer should be 27528.
-
-Now use `Exclude` to return to all records.
-
-Use `include` function again for values `Medical treatment and Minor injury` (with 35002 results).
-We will now remove all these records from our dataset.
-
-Select `All column > Edit rows > Remove all matching rows`.
-
-These two variables are now displayed in red and missing counts. Click reset.
-
-How many records are now available? (27528)
-
-Close the facet.
+- Scroll to `Crash_Severity` Column.
+- Click the down arrow and choose `Facet > Text facet`. Unique values will be displayed in left hand panel.
+- Click on the choices in the facet, or hover over them, `edit` and `include` functions appear.
+- Hover over values `Fatal and Hospitalisation` and use `include` function to narrow results just to those records.
+- Check how many records display? Answer should be 27528.
+- Now use `Exclude` to return to all records.
+- Use `include` function again for values `Medical treatment and Minor injury` (with 35002 results).
+- Remove all these records from the dataset.
+- Select `All column > Edit rows > Remove all matching rows`.
+- These two variables are now displayed in red and missing counts. Click reset.
+- How many records are now available? (27528)
+- Close the facet.
 
 #### Activity – fixing errors with Facets
 
-We can also edit values using the facets feature. We will use faceting to look at the `Crash_Day_of_Week Column`.
-
-What are the results?
-
-Hover over `MON SUN & SAT` and choose `Edit cells` to alter the abbreviated values to full words.
-
-How many days of the week are represented now?
-
-Close facet
+You can also edit values using the facets feature. 
+- Use faceting to look at the `Crash_Day_of_Week` Column.
+- What are the results? Do you see different representations of the same value?
+- Hover over `MON SUN & SAT` and choose `Edit cells` to alter the abbreviated values to full words.
+- Do you now have seven values for the days of the week? 
+- Close facet
 
 #### More on Facets
 
@@ -103,7 +87,13 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 #### Activity - what data is missing in `Crash_Type` column
 Use facets to find out how many records are missing crash type data?
 
-{% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null" color="success" %}
+{% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
+ Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
+{% include modal.md button="Solution 2" title={% include modal.md button="Solution 2" title="Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
+ Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %} %}
+Activity 2 solution" text="Select Facet > Customized facets > Facet by Blank or Null
+Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information."  ***This needs to be fixed.
+
 
 ### Fixing data in bulk via Common Transformations
 
@@ -113,11 +103,10 @@ Words with spaces at the beginning or end are particularly hard for we humans to
 
 #### Activity – Common transformations
 
-Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
+- Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
+- To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
+- You should now see only five choices in your text facet.
 
-To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
-
-You should now see only five choices in your text facet.
 ### Using clustering to detect possible typing errors
 
 Another very useful feature of OpenRefine is Clustering.  In OpenRefine, clustering means 'finding groups of different values that might be alternative representations of the same thing'. For example, the text strings 'New York', 'new york'  or 'New Yrok' (write on board) very likely refer to the same concept.
@@ -126,25 +115,17 @@ Clustering is a very powerful tool for identifying and fixing datasets which con
 
 OpenRefine has several clustering algorithms built in. Let's experiment with them.
 
-#### Activity 10 – Fixing errors via Clustering
+#### Activity – fixing errors via Clustering
 
-Create a Text Facet for `Crash_Nature`, scroll through the list.  You will notice a number of values  that are likely mis-typed entries due to various factors.  (Ask for examples and reward with prizes).
-
-Click the `Cluster` button, on the top right of the facet.
-
-In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
-
-Select the `key collision` method and `fingerprint` keying function. It should identify one cluster with 3 value options.
-
-Click the `Merge?` box beside the cluster, then click `Merge Selected and Re-cluster` to apply the corrections to the dataset.
-
-Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
-
-There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
-
-How many choices are now shown in the facet?  13 (prize).
-
-Close the facet.
+- Create a Text Facet for `Crash_Nature`, scroll through the list.  You will notice a number of values  that are likely mis-typed entries due to various factors.  (Ask for examples and reward with prizes).
+- Click the `Cluster` button, on the top right of the facet. In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
+- Select the `key collision` method and `fingerprint` keying function. It should identify one cluster with 3 value options.
+- Click the `Merge?` box beside the cluster, then click `Merge Selected and Re-cluster` to apply the corrections to the dataset.
+- Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
+- There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
+- How many choices are now shown in the facet? 
+{% include modal.md button="Solution Y" title="Activity Y solution" text="Result: 13. All correspond to the `Crash_Nature` type of Hit Animal, so it might be possible to identify the missing values from this information." color="success" %}
+- Close the facet.
 
 *Important: Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find Struck by external load with Struck by internal load.  These are valid variables, do not merge these.*
 
