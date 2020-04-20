@@ -16,7 +16,7 @@ nav: true
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
-Windows Troubleshooting
+**Windows Troubleshooting**
 
 You may also need to install Java for Windows
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
@@ -30,27 +30,28 @@ You may also need to install Java for Windows
   [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/){% endcapture %}
 {% include card.md header="Windows" text=text %}
   
-##### Mac
+{% capture text %}
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download latest software version from [http://openrefine.org](http://openrefine.org)
 - Drag icon into `Applications folder`
 - Doubleclick to launch OpenRefine
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
   
-##### Mac Troubleshooting
+ **Mac Troubleshooting**
 - If OpenRefine doesn’t open due to security settings go to:
   - `System Preferences> security & privacy >` see message re: OpenRefine
-  - select Open anyway
+  - select Open anyway{% endcapture %}
+{% include card.md header="Mac" text=text %}
 
-##### Linux
+{% capture text %}
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Launch OpenRefine
 -Type `./refine` into the terminal within the OpenRefine directory
-- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
-
+- If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.{% endcapture %}
+{% include card.md header="Linux" text=text %}
 
 -----
 
