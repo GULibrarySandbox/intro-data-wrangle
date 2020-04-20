@@ -50,11 +50,11 @@ It is easy to re-use GREL expressions, as OpenRefine provides a history of comma
 
 {% capture text %}
 - at  `Suburb_PostCode` column, select `Edit cells > Transform ...`
-- click the *History* tab
-- click on the first *Reuse* option
+- click the  `History` tab
+- click on the first  `Reuse` option
 - click inside the expression box, change character `")",""` to `", ",","` (i.e. comma & space character to comma no space character)
 - preview to check correctness
-- click  `OK`.{% endcapture %} {% include card.md header="Activity - repeat transformation steps by using *History*" text=text %}
+- click  `OK`.{% endcapture %} {% include card.md header="Activity - repeat transformation steps by using `History`" text=text %}
 
 Let's explore the `Suburb_PostCode` column to see which postcodes were the most or least prominent traffic crash locations.
 
