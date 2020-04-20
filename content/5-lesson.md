@@ -69,7 +69,7 @@ The Sort drop-down menu at the top of the screen also lets you amend the existin
 - remove existing sorts
 - reorder rows permanently.
 
-### Find missing values by sorting
+### Find and fix missing values by sorting
 
 Let's try to find if there are missing values for the `Crash_Longitude` variable.
 
@@ -93,7 +93,7 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Filter  `Crash_Street`  by *Mary*
 - Filter  `Crash_Street_Intersection`  by *Miles St*
 - Examine results for similarities
-- Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find missing values by sorting" text=text %}
+- Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
 
 ### Key Points
 
