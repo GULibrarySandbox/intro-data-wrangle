@@ -55,7 +55,7 @@ In this next activity you want to limit to a sub-set of this data, with records 
 - Select `All column > Edit rows > Remove all matching rows`.
 - These two variables are now displayed in red and missing counts. Click reset.
 - How many records are now available? (27528)
-- Close the facet.{% endcapture %} {% include card.md header="Activity - Amending data through Facets" text=text %}
+- Close the facet.{% endcapture %} {% include card.md header="Activity - amending data through Facets" text=text %}
 
 You can also edit values using the facets feature. 
 {% capture text %}
@@ -84,7 +84,6 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 
 {% capture text %}
 Use a `Custom facet` to find out how many records are missing crash type data.
-- Select `Facet > Customized facets > Facet by Blank or Null`. Result 13
 {% include modal.md button="Quiz 1 Solution" color="success" title="Quiz 1 Solutions" text="Select `Facet > Customized facets > Facet by Blank or Null`. 
 Result 13" %}{% endcapture %} {% include card.md header="Quiz 1. What data is missing in `Crash_Type` column?" text=text %}
 
@@ -94,13 +93,14 @@ Result 13" %}{% endcapture %} {% include card.md header="Quiz 1. What data is mi
 
 Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer. We usually want to remove these at the beginning of a project.  OpenRefine provides a tool to remove blank characters from the beginning and end of any entries that have them.
 
-#### Activity – remove whitespace with common transformation
-
+{% capture text %}
 - Create a new text facet for the column `Local_Police_Region`. You should see some choices that appear identical (Central and South Eastern have two choices). One of these choices must include either leading or trailing whitespace.
 - To remove the whitespace, choose `Edit cells > Common transforms > Trim leading and trailing whitespace`.
 - There should now be five choices in your text facet.
 
-Other common transformations include changing letter case, data formats and more.  Take a look at the other options with `Edit cells > Common transforms >` .
+Other common transformations include changing letter case, data formats and more.  
+
+Take a look at the other options with `Edit cells > Common transforms >` .{% endcapture %} {% include card.md header="Activity – remove whitespace with common transformation" text=text %}
 
 --------
 
@@ -111,9 +111,7 @@ Another very useful feature of OpenRefine is Clustering.  In OpenRefine, cluster
 Clustering is a very powerful tool for identifying and fixing datasets which contain misspelled or mistyped entries.
 
 OpenRefine has several clustering algorithms built in. Let's experiment with them.
-
-#### Activity – fixing errors via Clustering
-
+{% capture text %}
 - Create a Text Facet for `Crash_Nature`, scroll through the list.  You will notice a number of values that are likely mis-typed entries due to various factors.
 - Click the `Cluster` button, on the top right of the facet. In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
 - Select the `key collision` method and `fingerprint` keying function. It should identify one cluster with 3 value options.
@@ -121,7 +119,7 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 - Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
 - How many choices are now shown in the facet? Depending on your merges, there may be 13 choices remaining.
-- Close the facet.
+- Close the facet.{% endcapture %} {% include card.md header="Activity – fixing errors via Clustering" text=text %}
 {% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find *Struck by external load* with *Struck by internal load*.  These are valid variables, there is no need to merge these.
 {% endcapture %}
 {% include alert.md text=alert color="warning" %}
