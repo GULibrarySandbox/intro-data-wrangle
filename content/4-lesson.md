@@ -57,15 +57,13 @@ In this next activity you want to limit to a sub-set of this data, with records 
 - How many records are now available? (27528)
 - Close the facet.{% endcapture %} {% include card.md header="Activity - Amending data through Facets" text=text %}
 
-
-#### Activity – fixing errors with Facets
-
 You can also edit values using the facets feature. 
+{% capture text %}
 - Use faceting to look at the `Crash_Day_of_Week` Column.
 - What are the results? Do you see different representations of the same value?
 - Hover over `MON SUN & SAT` and choose `Edit cells` to alter the abbreviated values to full words.
 - Do you now have seven values for the days of the week? 
-- Close facet
+- Close facet{% endcapture %} {% include card.md header="Activity – fixing errors with Facets" text=text %}
 
 #### More on Facets
 
@@ -84,10 +82,11 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 - `Text length` facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
 - `Facet by blank` - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
-#### Activity - what data is missing in `Crash_Type` column
-
-Use facets to find out how many records are missing crash type data.
+{% capture text %}
+Use a `Custom facet` to find out how many records are missing crash type data.
 - Select `Facet > Customized facets > Facet by Blank or Null`. Result 13
+{% include modal.md button="Quiz 1 Solution" color="success" title="Quiz 1 Solutions" text="Select `Facet > Customized facets > Facet by Blank or Null`. 
+Result 13" %}{% endcapture %} {% include card.md header="Quiz 1. What data is missing in `Crash_Type` column?" text=text %}
 
 --------
 
