@@ -40,23 +40,21 @@ In this case, the second value is empty since we want to remove the bracket, i.e
 The *Preview* screen will display on the left the cell value as it is before transformation, and on the right, what the value will be after the expression has run. This allows you to correct any errors in writing the expression, e.g., adding spaces where they are not needed, using unmatching quote marks. 
 - Click  `OK`.
 
-The `Suburb_PostCode` column should now contain no left brackets.{% endcapture %} {% include card.md header="Activity - transforming data using GREL" text=text %}
+The  `Suburb_PostCode`  column should now contain no left brackets.{% endcapture %} {% include card.md header="Activity - transforming data using GREL" text=text %}
 
-#### Activity - remove another character
-
-Use the strategy above to remove the right-hand bracket (")") from the `Suburb_PostCode` column.
-- `value.replace(")", "")` 
+{% capture text %}
+Use the strategy above to remove the right-hand bracket (")") from the  `Suburb_PostCode`  column.
+- `value.replace(")", "")`{% endcapture %} {% include card.md header="Activity - remove another character" text=text %}
 
 It is easy to re-use GREL expressions, as OpenRefine provides a history of commands. You can select them and reuse as is or make changes. Let's try this with the remainder of the unnecessary characters in the  `Suburb_PostCode`  column. You want only to have a separator left between our two values in each cell.  The comma is the separator in this variable.
 
-#### Activity - repeat transformation steps by using *History*
-
-- at `Suburb_PostCode` column, select `Edit cells > Transform ...`
+{% capture text %}
+- at  `Suburb_PostCode` column, select `Edit cells > Transform ...`
 - click the *History* tab
 - click on the first *Reuse* option
 - click inside the expression box, change character `")",""` to `", ",","` (i.e. comma & space character to comma no space character)
 - preview to check correctness
-- click  `OK`.
+- click  `OK`.{% endcapture %} {% include card.md header="Activity - repeat transformation steps by using *History*" text=text %}
 
 Let's explore the `Suburb_PostCode` column to see which postcodes were the most or least prominent traffic crash locations.
 
