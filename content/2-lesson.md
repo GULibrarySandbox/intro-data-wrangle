@@ -9,24 +9,23 @@ nav: true
 
 OpenRefine works with a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls, xlsx`), `JSON`, `XML`, `RDF as XML`, and `Google Spreadsheets`. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-
------
-
-### Launch OpenRefine
-
+{% capture text %}
 **Windows**: double-click on the `openrefine.exe` file. Java services will start automatically on your machine, and OpenRefine will open in your browser. Be sure to use either Chrome or Firefox, as OpenRefine does not play well with Microsoft Edge or Safari.
 
 **Mac**: OpenRefine can be launched from your Applications folder.
 
 **Linux**: navigate to your OpenRefine directory in the command line and enter `./refine`.
 
-Once OpenRefine is launched in your browser, the home screen displays options to **Create Project**, **Open Project**, or **Import Project**. Select **Create a project**.
+Once OpenRefine is launched in your browser, the home screen displays options to `Create Project`, `Open Project`, or `Import Project`. 
+- Select `Create a project`.
 
-##### If launch fails
+**If launch fails**
 
-If OpenRefine does not automatically open within your browser after launch, point your browser at `http://127.0.0.1:3333/` or `http://localhost:3333` to launch the program.
+If OpenRefine does not automatically open within your browser after launch, point your browser at `http://127.0.0.1:3333/` or `http://localhost:3333` to launch the program.{% endcapture %}
+{% include card.md header="Launch OpenRefine" text=text %}
 {% capture alert %}Note: Keep the terminal window hosting Java open the in the background.{% endcapture %} {% include alert.md text=alert color="warning" %}
 {% include figure.html img="ORJava.JPG" alt="Terminal Java" caption="Keep the terminal window open when using OpenRefine" width="75%" %}
+
 
 
 -----
@@ -35,13 +34,13 @@ If OpenRefine does not automatically open within your browser after launch, poin
 
 Projects can be created in a variety of ways, e.g., by uploading data from your computer or by importing it from a web address.
 
-##### To create a project by uploading data from a local source
-
+{% capture text %}
 - Choose **Create Project**
 - Select **Get data from this Computer**.
 - Select **Choose Files** and browse to select the file `QLDtrafficAccidentsOpenDataVer1.csv` you saved to your **Downloads** folder.
 - Either click **Open** or double-click on the filename to import it into OpenRefine.
-- Click **Next**.
+- Click **Next**.{% endcapture %}
+{% include card.md header="Create a project by uploading data from a local source" text=text %}
 
 ##### To create a project by importing the data from a Web Address
 
