@@ -89,11 +89,9 @@ It is common while exploring and cleaning a dataset to discover after you've mad
 - Click on the previous step, to remove the split in the cell values of  `Suburb_PostCode`  column.
 - Visually confirm that the columns data has been re-joined.
 
-Activity - go back a step
-
-Before moving on to the next lesson,  `Undo`  to the step before we first used GREL to remove all the extra characters in  `Suburb_PostCode`.
-
-Go back to  `Facet/filter tab`.{% endcapture %} {% include card.md header="Activity - Undo" text=text %}
+Go back a step
+- before moving on to the next lesson,  `Undo`  to the step **before** we first used GREL to remove all the extra characters in  `Suburb_PostCode`.
+- Go back to  `Facet/filter tab`.{% endcapture %} {% include card.md header="Activity - Undo" text=text %}
 
 -----
 
@@ -128,8 +126,6 @@ A column named  `Suburb_PostCode 1`  contains the names of suburbs.
 A column named  `Suburb_PostCode 2`  contains postcodes in green characters.  The change in colour denotes that OpenRefine has changed the underlying format of the data from "text" to "number".
 
 Let's edit the column headings to represent the data more accurately.
-
-Activity
 
 - go to  `Suburb_PostCode 1`
 - select  `Edit Column > Rename this column`  and enter  `Suburb`  as the new column name
