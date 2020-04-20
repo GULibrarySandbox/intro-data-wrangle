@@ -4,7 +4,7 @@ Let's explore what we can do with numbers.
 
 When a table is imported into OpenRefine, all data is formatted as text. We saw earlier how we can sort column values as numbers, but this does not change the data type in a column from text to numbers. Rather, this interprets the values as numbers for the purposes of sorting but keeps the underlying data type as is.
 
-We can, however, transform columns to other data types (e.g., number or date) using the `Edit cells > Common transforms` feature. Here we will experiment changing columns to numbers and see what additional capabilities that gives us.
+We can, however, transform columns to other data types (e.g., number or date) using the  `Edit cells > Common transforms`  feature. Here we will experiment changing columns to numbers and see what additional capabilities that gives us.
 
 Be sure to close any facets you have enabled from the left panel before this step, so that we can be sure we are working on the complete dataset. You can close an existing facet by clicking the `x` in the upper left of that facet window.
 
