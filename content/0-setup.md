@@ -7,8 +7,7 @@ nav: true
 -----
 
 ## Download & install software
-
-##### Windows
+{% capture text %}
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`.   Name that directory something like OpenRefine.
@@ -17,7 +16,7 @@ nav: true
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
 
-##### Windows Troubleshooting
+Windows Troubleshooting
 
 You may also need to install Java for Windows
 - Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
@@ -28,7 +27,8 @@ You may also need to install Java for Windows
 - Choose the folder location. Save the file to `c:\program files\`
 - Close all applications including the browser.
 - Double-click on the saved file icon to start the installation process.
-  [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/) 
+  [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/){% endcapture %}
+{% include card.md header="Windows" text=text %}
   
 ##### Mac
 - Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
