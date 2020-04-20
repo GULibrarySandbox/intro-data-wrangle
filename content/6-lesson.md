@@ -21,8 +21,7 @@ It can be difficult to read, ingest and process data which has multiple values w
 
 First we will split data using the in-built programming capabilities of GREL within OpenRefine.  GREL stands for *General Refine Expression Language*. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
 
-#### Activity - transforming data using GREL
-
+{% capture text %}
 Look at the data in  `Suburb_PostCode`  column.  It has more than one value in each cell. The values include the *suburb name* and a *postcode* inside brackets (). This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as *brackets* and *leading (or trailing) whitespace*.
 
 Let's remove all the unnecessary characters by using the GREL command  `value.replace`.
@@ -41,7 +40,7 @@ In this case, the second value is empty since we want to remove the bracket, i.e
 The *Preview* screen will display on the left the cell value as it is before transformation, and on the right, what the value will be after the expression has run. This allows you to correct any errors in writing the expression, e.g., adding spaces where they are not needed, using unmatching quote marks. 
 - Click  `OK`.
 
-The `Suburb_PostCode` column should now contain no left brackets.
+The `Suburb_PostCode` column should now contain no left brackets.{% endcapture %} {% include card.md header="Activity - transforming data using GREL" text=text %}
 
 #### Activity - remove another character
 
