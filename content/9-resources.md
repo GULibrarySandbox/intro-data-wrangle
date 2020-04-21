@@ -3,7 +3,9 @@ title: Export
 nav: true
 ---
 
-# Save and close a project
+# Save & Export
+
+### Save and close a project
 
 By default, OpenRefine saves your project continuously. To close OpenRefine close the *browser tab* and the *terminal window*.  
 
@@ -11,7 +13,7 @@ To find a saved project, open OpenRefine and select  `Open Project`  tab, a list
 
 ----
 
-# Export features
+### Export features
 
 In OpenRefine you can export the cleaned data or the entire project. Exporting the project as a whole means you are saving the data and all the information about the cleaning and data transformation steps you have done. 
 
