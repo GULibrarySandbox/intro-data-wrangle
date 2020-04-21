@@ -29,7 +29,7 @@ You can also export project files as a whole. This is helpful if you wanted to s
 {% capture text %}
 - Click the  `Export`  button in the top right and select  `Export project`.
 
-A  `tar.gz`  file will download to your default `Download` directory. Depending on your browser, you may have to confirm that you want to save the file. 
+A  `tar.gz`  file will download to your default  `Download`  directory. Depending on your browser, you may have to confirm that you want to save the file. 
 
 The downloaded  `tar.gz`  file is a folder of files which have been compressed. *Linux* and *Mac* machines will have software installed to automatically expand this type of file when you double-click on it. 
 
