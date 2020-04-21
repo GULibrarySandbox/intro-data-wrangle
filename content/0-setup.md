@@ -69,7 +69,7 @@ Alternately, when you launch OpenRefine, you can import the data directly from a
 
 ##### Online
 
-You can find out more at the [OpenRefine](http://openrefine.org) website and check out some great introductory videos. These videos and others on OpenRefine can also be found on YouTube - use the search term 'OpenRefine'.
+You can find out more at the [OpenRefine](http://openrefine.org) website.  Check out the [documentation](http://openrefine.org/documentation.html) and great introductory videos. These videos and others on OpenRefine can also be found on YouTube - use the search term 'OpenRefine'.
 
 There is a [Google Group](https://groups.google.com/forum/#!forum/openrefine) that can answer a lot of beginner questions and problems.
 
