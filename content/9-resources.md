@@ -35,15 +35,18 @@ The downloaded  `tar.gz`  file is a folder of files which have been compress
 
 For *Windows-based* machines, you may have to install a utility like *7-zip* to expand the zip file.{% endcapture %} {% include card.md header="Activity - export a project" text=text %}
 
-After you have expanded the file, look at the files that appear in this folder. What files are here? What information do you think these files contain?
+{% capture text %}
+After you have expanded the file, look at the files that appear in this folder. 
 
-> **Solution**
+What files are here? What information do you think these files contain?
 
-> - a history folder which contains a collection of zip files. Each of these files itself contains a `change.txt` file. 
-> These `change.txt` files are the records of each individual transformation that you performed on your data.
+{% include modal.md button="Quiz 2 Solution" color="success" title="Quiz 2 Solution" text="- a history folder which contains a collection of zip files. Each of these files itself contains a `change.txt` file. 
 
-> - a data.zip file. When expanded, this zip file includes a file called `data.txt` which is a copy of your raw data. You may also see other files.
+These `change.txt` files are the records of each individual transformation that you performed on your data.
 
+- a data.zip file. When expanded, this zip file includes a file called `data.txt` which is a copy of your raw data. You may also see other files." %}{% endcapture %} {% include card.md header="Quiz 2. What files are in the exported project?" text=text %}
+
+----
 
 ### Going Further
 
