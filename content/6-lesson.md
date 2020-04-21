@@ -95,16 +95,16 @@ Go back a step
 
 -----
 
-### Joining up GREL expression commands**
+### Join up GREL commands
 
-{% capture text %}
 Let's perform the earlier clean up steps and customised text faceting for  `Suburb_PostCode`  column. We can do this more efficiently by joining up the GREL expressions.
 
+{% capture text %}
 - select  `Suburb_PostCode`  column.  All three cleaning steps can be performed by combining  `value.replace`  expressions.
 - select  `Edit cells > Transform ...`
 - in the Expression box, enter  `value.replace("(", "").replace(")", "").replace(", ", ",")`
 - click *Preview*
-- click `OK`{% endcapture %} {% include card.md header="Activity - joining up GREL commands" text=text %}
+- click `OK`{% endcapture %} {% include card.md header="Activity - join up GREL commands" text=text %}
 
 -----
 
@@ -123,7 +123,9 @@ The original column has now been replaced with two columns for different values.
 
 A column named  `Suburb_PostCode 1`  contains the names of suburbs.
 
-A column named  `Suburb_PostCode 2`  contains postcodes in green characters.  The change in colour denotes that OpenRefine has changed the underlying format of the data from "text" to "number".
+A column named  `Suburb_PostCode 2`  contains postcodes in green characters.  
+
+The change in colour denotes that OpenRefine has changed the underlying *format* of the data from *text* to *number*.
 
 Let's edit the column headings to represent the data more accurately.
 
