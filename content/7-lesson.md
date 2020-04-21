@@ -30,7 +30,7 @@ Sometimes there are non-numeric values or blanks within a column which may repre
 
 Notice that there are several checkboxes in this facet,  `Numeric`,  `Non-numeric`,  `Blank`,  `Error`.
 
-Below these are counts of the number of cells in each category. You should see checks for *Non-numeric* and *Blank* if you changed or deleted some values.
+Below these are counts of the number of cells in each category. You should see checks for  `Non-numeric`  and  `Blank`  if you changed or deleted some values.
 
 - experiment with checking or unchecking these boxes to select subsets of your data.
 - when finished exploring, close this facet by clicking the  `x`  in the upper left corner of its panel.
