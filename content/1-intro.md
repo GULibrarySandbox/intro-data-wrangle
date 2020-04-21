@@ -27,7 +27,7 @@ It runs inside your Web browser, but no internet connection is needed to use it,
 - find and correct errors inlcuding misspellings, typos, whitespace
 - find and remove duplicate observations
 - identify and fix illegal values (data that does not fall within the accepted range for the variable)
-- map the meaning of the dataset to its structure ['tidy data'](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) by [Adj Professor Hadley Wickham](http://hadley.nz/){% endcapture %} {% include card.md header="Clean & standardise data" text=text %}
+- map the meaning of the dataset to its structure ['tidy data'](https://cran.r-project.org/web/packages/tidyr/vignettes/tidy-data.html) by [Hadley Wickham](http://hadley.nz/){% endcapture %} {% include card.md header="Clean & standardise data" text=text %}
 
 {% capture text %}
 - Split columns or rows of data up into more granular parts
