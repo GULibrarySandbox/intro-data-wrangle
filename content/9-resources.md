@@ -1,71 +1,51 @@
 ---
-title: Resources
+title: Export
 nav: true
 ---
 
-# Resources
+# Save and close a project
 
-To learn about using `workshop-template-b`, the [Readme](https://github.com/evanwill/workshop-template-b/blob/master/README.md) and content pages have some documentation.
+By default, OpenRefine saves your project continuously. To close OpenRefine close the *browser tab* and the *terminal window*.  
 
-Workshop sites using this template:
+To find a saved project, open OpenRefine and select  `Open Project`  tab, a list of projects will be available to select and open.
 
-- [Make OER!](https://evanwill.github.io/make-oer/) (presentation)
-- [Hey API!](https://evanwill.github.io/hey-api/) (workshop)
-- [Teaching Tech Hands-on](https://evanwill.github.io/tech-hands-on/) (presentation)
-- [Refine APIs](https://evanwill.github.io/refine-apis/) (workshop)
-- [Mini Web Crash Course](https://evanwill.github.io/mini-web-crash-course/) (workshop)
+----
 
-Other workshop sites an [minimal version of this template](https://github.com/evanwill/workshop-template) (no bootstrap):
+# Export features
 
-- [get-git](https://evanwill.github.io/get-git/)
-- [hello-arduino](https://evanwill.github.io/hello-arduino/)
-- [clean-your-data](https://evanwill.github.io/clean-your-data/)
-- [go-go gh-pages](https://evanwill.github.io/go-go-ghpages/)
-- [Make @ the MILL](https://uidaholib.github.io/make-at-the-mill/)
+In OpenRefine you can export the cleaned data or the entire project. Exporting the project as a whole means you are saving the data and all the information about the cleaning and data transformation steps you have done. 
 
-# Reference
+You can export your cleaned data, with different file formats, for use in other tools for analysis.
 
-### Git & GitHub
+{% capture text %}
+- Click  `Export`  in the top right and select the file type for the data export. Tab-separated values (`tsv`) or Comma-separated values (`csv`) are good choices, as they are non-proprietary, but can easily be opened in programs like Excel, R, Python or the Unix shell.
 
-[GitHub](https://github.com/){:target="_blank" rel="noopener"} is a popular web service for hosting Git repositories--with benefits!
-It provides a handy web interface for editing and collaborating on repos, as well as, built in project management features and [free static web hosting](https://pages.github.com/){:target="blank"} powered by [Jekyll](https://jekyllrb.com/){:target="blank"}.
-Accounts are free.
-To learn more check out Hellow World on [GitHub Guides](https://guides.github.com/){:target="_blank" rel="noopener"} or [GitHub Training](https://services.github.com/on-demand/){:target="_blank" rel="noopener"}.
+Any exported file will be saved to your default  `Download`  directory.{% endcapture %} {% include card.md header="Activity - export cleaned data" text=text %}
 
-### Markdown
+You can also export project files as a whole. This is helpful if you wanted to send your raw data and cleaning steps to a collaborator, or share the information as a supplement to a publication.
 
-[Markdown](https://daringfireball.net/projects/markdown/) is a standard to simplify writing content for the web. 
-[GitHub markdown flavor](https://help.github.com/articles/basic-writing-and-formatting-syntax/) can be used any where on GitHub and in Jekyll.
+{% capture text %}
+- Click the  `Export`  button in the top right and select  `Export project`.
 
-- [Markdown in a Minute](https://evanwill.github.io/_drafts/notes/markdown-minute.html)
-- GitHub Guide [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+A  `tar.gz`  file will download to your default `Download` directory. Depending on your browser, you may have to confirm that you want to save the file. 
 
-### Bootstrap 4
+The downloaded  `tar.gz`  file is a folder of files which have been compressed. *Linux* and *Mac* machines will have software installed to automatically expand this type of file when you double-click on it. 
 
-[Bootstrap](https://getbootstrap.com/) is a CSS framework designed to streamline developing user interfaces for your website. 
-It is combined with a JavaScript library [jQuery](https://jquery.com/) to simplify adding interactive components. 
+For *Windows-based* machines, you may have to install a utility like *7-zip* to expand the zip file.{% endcapture %} {% include card.md header="Activity - export a project" text=text %}
 
-### FontAwesome 5
+After you have expanded the file, look at the files that appear in this folder. What files are here? What information do you think these files contain?
 
-[FontAwesome](https://fontawesome.com/) is an icon set used to easily add icons to websites.
-Check the [gallery](https://fontawesome.com/icons?d=gallery&m=free) for the freely available icons.
+> **Solution**
 
-### YAML
+> - a history folder which contains a collection of zip files. Each of these files itself contains a `change.txt` file. 
+> These `change.txt` files are the records of each individual transformation that you performed on your data.
 
-[YAML](http://www.yaml.org/) is a human readable plain text data format.
-It is used in Jekyll for configuration, site data, and front matter.
-Jekyll projects are [configured](https://jekyllrb.com/docs/configuration/) using the `_config.yml` file.
+> - a data.zip file. When expanded, this zip file includes a file called `data.txt` which is a copy of your raw data. You may also see other files.
 
-### Liquid
 
-[Liquid](http://shopify.github.io/liquid/) is a flexible template language.
-[In Jekyll](https://jekyllrb.com/docs/templates/) it allows you to layout pages built from modular components and data, using the `_includes`, `_layouts`, and `_data` directories.
-Liquid includes features such as operators, loops, and filters to manipulate raw content. 
-Liquid statements are enclosed by {% raw %}`{%  %}`{% endraw %} and variables in {% raw %}`{{  }}`{% endraw %}.
+### Going Further
 
-### Sass  
+Look at the other options on the Import screen - try changing some of these options and see how that changes the  `Preview`  and how the data appears after import.
 
-[Sass](http://sass-lang.com/) is a CSS extension / preprocessor. 
-All normal CSS is valid SCSS, but Sass adds many powerful functions and programatic features. 
-Writing SCSS is often easier and more sensible, for example by supporting nesting, variables, and operators. 
-Jekyll lets you write SASS in modular chucks called partials, in the `_sass` directory, that will be combined and compiled into normal CSS files when the site is built.
+Do you have access to JSON or XML data? If so, the first stage of the import process will prompt you to select a 'record path' - that is, the parts of the file that will form the data rows in the OpenRefine project. 
+
