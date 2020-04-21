@@ -39,9 +39,9 @@ Projects can be created in a variety of ways, e.g., by uploading data from your 
 - Select `Choose Files` and browse to select the file `QLDtrafficAccidentsOpenDataVer1.csv` you saved to your `Downloads` folder.
 - Either click `Open` or double-click on the filename to import it into OpenRefine.
 - Click `Next`.{% endcapture %}
-{% include card.md header="Create a project by uploading data from a local source" text=text %}
+{% include card.md header="Create a project by uploading data from your computer" text=text %}
 
-OR 
+Or 
 
 {% capture text %}
 - Choose `Create Project`
