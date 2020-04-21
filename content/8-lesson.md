@@ -54,6 +54,7 @@ For example, you could apply your changes to data that you had collected over di
 
 The data in this file was generated from a database, so the column headings are pretty much guaranteed to be the same. 
 
+
 ----
 
 # Save and close a project
