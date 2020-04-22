@@ -40,5 +40,8 @@ The data used in this lesson is a smaller four-year subset and has had changes m
 ### Saving projects
 
 Projects are saved automatically as you work on them,  so there is no need to save copies as you go along. 
-To open an existing project in OpenRefine, click **Open Project** from the main OpenRefine screen (in the left-hand menu). 
+
+### Opening existing projects
+
+To open an existing project in OpenRefine, click  `Open Project`  from the main OpenRefine screen (in the left-hand menu). 
 When you click this, you will see a list of the existing projects and can click on a project's name to open it.
