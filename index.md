@@ -16,7 +16,7 @@ Learn basic data cleaning techniques in this self-paced online workshop such as:
 - cleaning, organising and preparing data for analysis
 - extracting and using a script to automate wrangling on similar data
 
-Manyusers comment that OpenRefine saves them months of work trying to edit and clean by hand. This workshop will take you through the steps from ideas and spreadsheets, to reproducible analysable data sets. 
+Many users comment that OpenRefine saves them months of work trying to edit and clean by hand. This workshop will take you through the steps from ideas and spreadsheets, to reproducible analysable data sets. 
 
 Adapted from [Data Carpentry lessons for Social Science](https://datacarpentry.org/lessons/#social-science-curriculum/)
 
