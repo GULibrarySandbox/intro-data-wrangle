@@ -124,6 +124,10 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 {% endcapture %}
 {% include alert.md text=alert color="warning" %}
 
+{% include button.md text="Watch video" link="https://vimeo.com/412536655/cfbb96bb38" color="info" %}
+
+----
+
 ### Different clustering algorithms
 
 Detailed information on the different clustering algorithms and combinations is available here: [https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth](https://github.com/OpenRefine/OpenRefine/wiki/Clustering-In-Depth).
