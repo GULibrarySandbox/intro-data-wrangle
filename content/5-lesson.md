@@ -20,6 +20,8 @@ There are many records in this dataset and you can filter them to work on a subs
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview, description and count of all of the data that is currently selected, while filtering allows you to select a subset of your data by a string - of text in this case - for analysis or cleaning.
 
+{% include button.md text="Watch video" link="https://vimeo.com/412533690/80c2ae057e" color="info" %}
+
 ------
 
 ### Sorting data
