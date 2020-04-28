@@ -97,6 +97,10 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Examine results for similarities
 - Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
 
+{% include button.md text="Watch video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
+
+----
+
 ### Key Points
 
 OpenRefine provides a way to sort and filter data without affecting or changing the raw data.
