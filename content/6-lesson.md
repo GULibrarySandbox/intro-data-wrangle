@@ -134,3 +134,6 @@ Let's edit the column headings to represent the data more accurately.
 - go to  `Suburb_PostCode 1`
 - select  `Edit Column > Rename this column`  and enter  `Suburb`  as the new column name
 - repeat the process for  `Suburb_PostCode 2`  to rename the column to  `Postcode` .{% endcapture %} {% include card.md header="Activity - joining up GREL commands" text=text %}
+
+
+{% include button.md text="Watch video" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
