@@ -16,7 +16,7 @@ Learn basic data cleaning techniques in this self-paced online workshop such as:
 - cleaning, organising and preparing data for analysis
 - extracting and using a script to automate wrangling on similar data
 
-Download the software and open data, do the activities and watch the videos to guide you through the lessons. Give yourself around 2 1/2 hours to complete the workshop.
+Download the software and open data, do activities and watch videos to guide you through the lessons. Give yourself around 2 1/2 hours to complete the workshop.
 
 Adapted from [Data Carpentry lessons for Social Science](https://datacarpentry.org/lessons/#social-science-curriculum/)
 
