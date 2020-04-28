@@ -46,6 +46,10 @@ Create a new project in OpenRefine using the  `QLDtrafficAccidentsOpenDataVer1.c
 - paste in the contents of  `.txt`  file you saved.
 - click  `Perform operations`  button{% endcapture %} {% include card.md header="Activity - import and use a script on another dataset" text=text %}
 
+
+{% include button.md text="Watch video" link="https://vimeo.com/412608736/a3ea7cc31c" color="info" %}
+
+
 The dataset should now be the same as your other cleaned dataset.
 
 For convenience, we used the same dataset.  You could use this process to clean related datasets.
