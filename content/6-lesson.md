@@ -56,9 +56,11 @@ It is easy to re-use GREL expressions, as OpenRefine provides a history of comma
 - preview to check correctness
 - click  `OK`.{% endcapture %} {% include card.md header="Activity - repeat transformation steps by using History" text=text %}
 
-Let's explore the  `Suburb_PostCode`  column to see which postcodes were the most or least prominent traffic crash locations.
+{% include button.md text="Watch video" link="https://vimeo.com/412605118/b259dd9e3c" color="info" %}
 
 -----
+
+Let's explore the  `Suburb_PostCode`  column to see which postcodes were the most or least prominent traffic crash locations.
 
 ### Splitting cells
 
