@@ -49,6 +49,7 @@ Create a new project in OpenRefine using the  `QLDtrafficAccidentsOpenDataVer1.c
 
 {% include button.md text="Watch video" link="https://vimeo.com/412608736/a3ea7cc31c" color="info" %}
 
+---- 
 
 The dataset should now be the same as your other cleaned dataset.
 
