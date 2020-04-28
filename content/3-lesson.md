@@ -5,6 +5,8 @@ nav: true
 # The Layout of OpenRefine
 
 -----
+{% include button.md text="Watch video" link="https://vimeo.com/412542634/f5b1ced9b9" color="info" %}
+
 
 OpenRefine displays data in a tabular format. Each row will usually represent a 'record' or 'observation' in the data, 
 while each column represents a type of information or 'variable'. This is very similar to how you might view data 
