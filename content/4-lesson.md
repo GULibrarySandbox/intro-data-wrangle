@@ -65,6 +65,10 @@ You can also edit values using the facets feature.
 - Do you now have seven values for the days of the week? 
 - Close facet{% endcapture %} {% include card.md header="Activity – fixing errors with Facets" text=text %}
 
+{% include button.md text="Watch video" link="https://vimeo.com/412540178/a0a65e0c0f" color="info" %}
+
+----
+
 #### More on Facets
 
 As well as 'Text facets' and 'timeline facets', OpenRefine also supports other types of facet. These include:
