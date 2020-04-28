@@ -38,3 +38,6 @@ Below these are counts of the number of cells in each category. You should see c
 Note that closing a facet will not undo the edits you have made to the cells in this column.
 
 - Use the  `Undo / Redo`  function to reverse these changes.{% endcapture %} {% include card.md header="Activity - numeric facet" text=text %}
+
+
+{% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
