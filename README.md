@@ -1,2 +1,2 @@
-# Repository for online Griffith University workshop - Introduction to Data Wrangling with OpenRefine
+# Griffith University Library workshop - Introduction to Data Wrangling with OpenRefine
 
