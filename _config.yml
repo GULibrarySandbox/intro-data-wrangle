@@ -21,15 +21,15 @@ github_username: stapletonsl
 # Need to add acknowledgement to Evan Wills
 
 # add the full url for the github repository
-repo: "https://github.com/stapletonsl/data-wrangle-intro/"
+repo: "https://github.com/GriffithUniLibrary/intro-data-wrangle/"
 
 # site urls
 # add the url for the domain,
 # on gh-pages follow the pattern: https://username.github.io 
-url: https://stapletonsl.github.io
+url: https://GriffithUniLibrary.github.io
 # add subsection of the domain,
 # on gh-pages this is a / followed by the name of the repository
-baseurl: /data-wrangle-intro
+baseurl: /intro-data-wrangle
 # add search box to footer?
 search: true
 
