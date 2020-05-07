@@ -1,2 +1,4 @@
-# Griffith University Library workshop - Introduction to Data Wrangling with OpenRefine
-
+# Introduction to Data Wrangling with OpenRefine
+Self-paced online workshop developed by Griffith University Library 
+Content adapted from Data Carpentry lessons
+workshop-template-b by evanwill is built using Jekyll on GitHub Pages. The site is styled using Bootstrap with FontAwesome icons.
