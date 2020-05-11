@@ -124,7 +124,7 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
 - How many choices are now shown in the facet? Depending on your merges, there may be 13 choices remaining.
 - Close the facet.{% endcapture %} {% include card.md header="Activity – fixing errors via Clustering" text=text %}
-{% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find *Struck by external load* with *Struck by internal load*.  These are valid variables, there is no need to merge these.
+{% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find *Struck by external load* with *Struck by internal load*.  These are valid values, there is no need to merge these.
 {% endcapture %}
 {% include alert.md text=alert color="warning" %}
 
