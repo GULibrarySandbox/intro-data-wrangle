@@ -15,7 +15,7 @@ To transform cells in the  `Crash_Hour`  column to numbers:
 
 - Click the down arrow for the  `Crash_Hour` column
 
-- Select  `Edit cells > Common transforms ... ` and chose the option  `number`
+- Select  `Edit cells > Common transforms ... ` and choose the option  `to number`
 
 The  `Crash_Hour`  values change from left-justified to right-justified, and from black to green in colour.{% endcapture %} {% include card.md header="Activity - tranforming text to numbers" text=text %}
 
