@@ -34,7 +34,7 @@ This is useful when working with `xml` files, MARC records, as well as `csv` fil
 
 ### Undo / Redo
 
-OpenRefine provides Undo and Redo operations to make changes to your data work, no matter how far along you have gone. Find out how this works in the [GREL] {https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html} activities. 
+OpenRefine provides Undo and Redo operations to make changes to your data work, no matter how far along you have gone. Find out how this works in the [GREL](https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html) activities. 
 
 ### Saving projects
 
