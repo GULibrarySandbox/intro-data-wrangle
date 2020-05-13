@@ -32,13 +32,9 @@ This is useful when working with `xml` files, MARC records, as well as `csv` fil
 
 {% include figure.html img="ORLayout.png" alt="OpenRefine layout" caption="OpenRefine layout" width="75%" %}
 
-### The sample dataset
+### Undo / Redo
 
-We will be using open data from Transport & Main Roads obtained from the Queensland Government's [open 
-data portal](https://data.qld.gov.au). The original dataset presents 17 years of traffic accidents, their location, 
-type of accident, level of injury, and other features, with over 300,000 observations.  
-
-The data used in this lesson is a smaller four-year subset and has had changes made for training purposes.
+OpenRefine provides Undo and Redo operations to make changes to your data work, no matter how far along you have gone. Find out how this works in the [GREL] {https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html} activities. 
 
 ### Saving projects
 
@@ -48,3 +44,11 @@ Projects are saved automatically as you work on them,  so there is no need to sa
 
 To open an existing project in OpenRefine, click  `Open Project`  from the main OpenRefine screen (in the left-hand menu). 
 When you click this, you will see a list of the existing projects and can click on a project's name to open it.
+
+### The sample dataset
+
+We will be using open data from Transport & Main Roads obtained from the Queensland Government's [open 
+data portal](https://data.qld.gov.au). The original dataset presents 17 years of traffic accidents, their location, 
+type of accident, level of injury, and other features, with over 300,000 observations.  
+
+The data used in this lesson is a smaller four-year subset and has had changes made for training purposes.
