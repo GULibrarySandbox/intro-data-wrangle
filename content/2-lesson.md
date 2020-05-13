@@ -69,6 +69,8 @@ There are options to indicate whether the dataset has column headers included an
 - Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - If all looks fine, click `Create Project`.
 
+{% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %} 
+
 -----
 
 ### Key Points
