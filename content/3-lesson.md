@@ -30,9 +30,11 @@ OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we
 where each row represents a single record in the data set - in this case, the details of one traffic crash.  In Records mode, OpenRefine can link together multiple rows as belonging to the same Record. 
 This is useful when working with `xml` files, MARC records, as well as `csv` files. We will see an example of this later.
 
+{% include figure.html img="ORLayout.png" alt="OpenRefine layout" caption="OpenRefine layout" width="75%" %}
+
 ### The sample dataset
 
-We will be using open data from Transport & Main Roads obtained from the Queensland, Australia government's [open 
+We will be using open data from Transport & Main Roads obtained from the Queensland Government's [open 
 data portal](https://data.qld.gov.au). The original dataset presents 17 years of traffic accidents, their location, 
 type of accident, level of injury, and other features, with over 300,000 observations.  
 
