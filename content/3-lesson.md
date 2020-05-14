@@ -26,8 +26,7 @@ cells in that column. If you want to make changes across several columns, you wi
 
 ###  Rows and Records
 
-OpenRefine has two modes of viewing data: 'Rows' and 'Records'. At the moment we are in Rows mode, 
-where each row represents a single record in the data set - in this case, the details of one traffic crash.  In Records mode, OpenRefine can link together multiple rows as belonging to the same Record. 
+OpenRefine has two modes of viewing data: 'Rows' and 'Records'. In Rows mode, each row represents a single record in the data set.  In Records mode, OpenRefine can link together multiple rows as belonging to the same Record. 
 This is useful when working with `xml` files, MARC records, as well as `csv` files. We will see an example of this later.
 
 {% include figure.html img="ORLayout.png" alt="OpenRefine layout" caption="OpenRefine layout" width="75%" %}
