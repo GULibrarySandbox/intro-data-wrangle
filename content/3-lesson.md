@@ -46,7 +46,7 @@ When you click this, you will see a list of the existing projects and can click 
 
 ### The sample dataset
 
-We will be using open data from Transport & Main Roads obtained from the Queensland Government's [open 
+The data in this workshop open data published by QLD Transport & Main Roads and downloaed from the Queensland Government's [open 
 data portal](https://data.qld.gov.au). The original dataset presents 17 years of traffic accidents, their location, 
 type of accident, level of injury, and other features, with over 300,000 observations.  
 
