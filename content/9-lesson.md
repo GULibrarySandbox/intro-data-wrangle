@@ -55,7 +55,5 @@ What files are here? What information do you think these files contain?
 
 ### Going Further
 
-Look at the other options on the Import screen - try changing some of these options and see how that changes the  `Preview`  and how the data appears after import.
-
-Do you have access to JSON or XML data? If so, the first stage of the import process will prompt you to select a 'record path' - that is, the parts of the file that will form the data rows in the OpenRefine project. 
+Want to continue your learning?  Go to [Advanced Data Wrangling with OpenRefine](https://griffithunilibrary.github.io/Advanced-data-wrangle/) for more.
 
