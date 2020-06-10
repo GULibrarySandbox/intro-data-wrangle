@@ -57,7 +57,7 @@ You may also need to install Java for Windows
 
 ## About the data
 
-The dataset used in this workshop is adapted from [Crash data from Queensland roads open data](https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads) © 2019 The State of Queensland 2019, licensed under a Creative Commons Attribution 4.0 International licence, [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/).  It was downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/).
+The dataset used in this workshop is adapted from [Crash data from Queensland roads](https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads), © 2019 The State of Queensland, licensed under a Creative Commons Attribution 4.0 International licence, [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/).  It was downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/).
 
 The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations. 
 
