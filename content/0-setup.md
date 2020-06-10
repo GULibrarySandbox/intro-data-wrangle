@@ -57,7 +57,7 @@ You may also need to install Java for Windows
 
 ## About the data
 
-The dataset used in this workshop is open data published by Queensland Transport & Main Roads Department, downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/).
+The dataset used in this workshop is adapted from open data published by Queensland Transport & Main Roads Department, downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/), © 2019 The State of Queensland 2019 and is licensed under a Creative Commons Attribution 4.0 International licence, [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/).
 
 The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations. 
 
