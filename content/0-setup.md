@@ -57,17 +57,20 @@ You may also need to install Java for Windows
 
 ## About the data
 
-The dataset used in this workshop is adapted from open data published by Queensland Transport & Main Roads Department, downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/), © 2019 The State of Queensland 2019 and is licensed under a Creative Commons Attribution 4.0 International licence, [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/).
+The dataset used in this workshop is adapted from [Crash data from Queensland roads open data](https://www.data.qld.gov.au/dataset/crash-data-from-queensland-roads) © 2019 The State of Queensland 2019, licensed under a Creative Commons Attribution 4.0 International licence, [CC BY 4.0.](https://creativecommons.org/licenses/by/4.0/).  It was downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/).
 
 The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations. 
 
-The data used in these lessons is a smaller, four-year subset and has had changes made for training purposes. It is accessbile via [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/).
+The  data used in these lessons is a smaller, four-year subset and has had changes made for training purposes. 
 
 {% capture text %}
-- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
+- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
 - to your `Downloads` folder. We will then import the data into OpenRefine.
 
-Alternately, when you launch OpenRefine in the *Create* lesson, import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
+Alternately, when you launch OpenRefine in the *Create* lesson:
+
+- import the data directly from a *Web address*
+- using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
 {% include card.md header="Download workshop data" text=text %}
 
 -----
