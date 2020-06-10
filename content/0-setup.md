@@ -64,10 +64,10 @@ The original dataset presents 17 years of traffic accidents, their location, typ
 The data used in these lessons is a smaller, four-year subset and has had changes made for training purposes. It is accessbile via [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/).
 
 {% capture text %}
-- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
-- to your `Downloads` folder. We will then import that data into OpenRefine.
+- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [here](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
+- to your `Downloads` folder. We will then import the data into OpenRefine.
 
-Alternately, when you launch OpenRefine in the Create lesson, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
+Alternately, when you launch OpenRefine in the *Create* lesson, import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
 {% include card.md header="Download workshop data" text=text %}
 
 -----
