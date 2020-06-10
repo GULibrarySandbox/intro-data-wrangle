@@ -43,11 +43,3 @@ Projects are saved automatically as you work on them,  so there is no need to sa
 
 To open an existing project in OpenRefine, click  `Open Project`  from the main OpenRefine screen (in the left-hand menu). 
 When you click this, you will see a list of the existing projects and can click on a project's name to open it.
-
-### The sample dataset
-
-The data in this workshop open data published by QLD Transport & Main Roads and downloaed from the Queensland Government's [open 
-data portal](https://data.qld.gov.au). The original dataset presents 17 years of traffic accidents, their location, 
-type of accident, level of injury, and other features, with over 300,000 observations.  
-
-The data used in this lesson is a smaller four-year subset and has had changes made for training purposes.
