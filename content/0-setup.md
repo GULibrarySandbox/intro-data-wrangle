@@ -55,12 +55,20 @@ You may also need to install Java for Windows
 
 -----
 
-## Download the data
+## About the data
 
-Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from this [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
-to your `Downloads` folder. We will then import that data into OpenRefine.
+The dataset used in this workshop is open data published by Queensland Transport & Main Roads Department, downloaded from the Queensland Government’s [open data portal](https://www.data.qld.gov.au/).
 
-Alternately, when you launch OpenRefine, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv)
+The original dataset presents 17 years of traffic accidents, their location, type of accident, level of injury, and other features, with over 300,000 observations. 
+
+The data used in these lessons is a smaller, four-year subset and has had changes made for training purposes. It is accessbile via [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/).
+
+{% capture text %}
+- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [website](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
+- to your `Downloads` folder. We will then import that data into OpenRefine.
+
+Alternately, when you launch OpenRefine in the Create lesson, you can import the data directly from a Web address using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
+{% include card.md header="Download workshop data" text=text %}
 
 -----
 
@@ -75,5 +83,4 @@ There is a [Google Group](https://groups.google.com/forum/#!forum/openrefine)�
 
 ##### At Griffith University
 
-Help is available at Griffith [Hacky Hour & Library Researcher Support](https://hackyhourgriffith.wordpress.com/) sessions, Thursdays between 2-3pm alternating weeks at Gold Coast and Nathan campuses.  Grab a free coffee and we can help you.
-Or get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
+Help is available from eResearch and Library specialists at Griffith University. Get in touch with us [here](https://intranet.secure.griffith.edu.au/library/forms/help) for an online consultation.
