@@ -71,10 +71,3 @@ There are options to indicate whether the dataset has column headers included an
 - If all looks fine, click `Create Project`.
 
 {% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %} 
-
------
-
-### Key Points
-
-- Use the `Create Project` option to import new data to work on.
-- You can control how data is imported by changing options on the import screen.
