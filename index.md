@@ -18,7 +18,7 @@ Learn basic data cleaning techniques in this self-paced online workshop such as:
 
 Download the software and dataset, do activities and watch videos to guide you through the lessons. Give yourself around 2 1/2 hours to complete the workshop.
 
-Adapted from [Data Carpentry](https://datacarpentry.org/lessons/#social-science-curriculum/) & [Library Carpentry])(https://librarycarpentry.org/lessons/)  lessons.
+Adapted from [Data Carpentry](https://datacarpentry.org/lessons/#social-science-curriculum/) & [Library Carpentry](https://librarycarpentry.org/lessons/) lessons.
 
 {% include toc.html %}
 
