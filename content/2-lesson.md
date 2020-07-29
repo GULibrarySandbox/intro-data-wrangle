@@ -70,6 +70,6 @@ There are options to indicate whether the dataset has column headers included an
 - Give the project a meaningful name such as `TrafficAccidentsCleanV1`
 - If all looks fine, click `Create Project`.
 
-{% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %} 
+{% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %}
 
-{% include video-embed.html vimeoid="412533690" caption="Launch OpenRefine" %}
+<iframe src="https://player.vimeo.com/video/412533690" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
