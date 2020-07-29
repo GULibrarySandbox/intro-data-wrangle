@@ -62,9 +62,9 @@ OpenRefine gives you a preview to show you how it has interpreted the file you h
 - If the wrong file is displaying, click `<<Start Over` (upper left).
 
 There are options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data. 
+- Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
 - Make sure the `Parse cell text into numbers, dates,` ... box is not checked, so OpenRefine doesn't try to automatically detect numbers. Parsing in this context refers to the way the software will interpret the format of the data.
-- Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
 - Give the project a meaningful name such as `TrafficAccidentsCleanV1`
 - If all looks fine, click `Create Project`.
 
