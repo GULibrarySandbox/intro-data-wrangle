@@ -72,4 +72,5 @@ There are options to indicate whether the dataset has column headers included an
 
 {% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %}
 
-<iframe src="https://player.vimeo.com/video/412533690" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+{% include button.md text="Follow the above steps on this video" link="https://vimeo.com/412533690/80c2ae057e" color="info" %}
+
