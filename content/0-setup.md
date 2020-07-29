@@ -40,7 +40,7 @@ You may also need to install Java for Windows
  **Mac Troubleshooting**
 - If OpenRefine doesn’t open due to security settings go to:
   - `System Preferences> security & privacy >` see message re: OpenRefine
-  - select Open anyway{% endcapture %}
+  - Select Open anyway{% endcapture %}
 {% include card.md header="Mac" text=text %}
 
 {% capture text %}
