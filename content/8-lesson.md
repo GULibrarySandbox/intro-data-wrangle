@@ -30,7 +30,7 @@ Currently all the operations you have made to the dataset are highlighted within
 
 ### Import a script to use with another dataset
 
-Let's practise running the script you just created on a new dataset. We'll test this on an raw, uncleaned version of the dataset we've been working with.
+Let's practise running the script you just created on a new dataset. We'll test this on a raw, uncleaned version of the dataset we've been working with.
 
 {% capture text %}
 Create a new project in OpenRefine using the  `QLDtrafficAccidentsOpenDataVer1.csv`  dataset you downloaded at the start of the workshop.
@@ -47,7 +47,7 @@ Create a new project in OpenRefine using the  `QLDtrafficAccidentsOpenDataVer1.c
 - click  `Perform operations`  button{% endcapture %} {% include card.md header="Activity - import and use a script on another dataset" text=text %}
 
 
-{% include button.md text="Watch video" link="https://vimeo.com/412608736/a3ea7cc31c" color="info" %}
+{% include button.md text="Watch these steps in this video" link="https://vimeo.com/412608736/a3ea7cc31c" color="info" %}
 
 ---- 
 
