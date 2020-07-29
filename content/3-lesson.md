@@ -6,19 +6,19 @@ nav: true
 
 -----
 
+### Display 
+
 OpenRefine displays data in a tabular format, similar to how you might view data in a spreadsheet or database. 
 - Each row will usually represent a 'record' or 'observation' in the data
 - Each column represents a type of information or 'variable'
 - Individual bits of data or 'values' live in 'cells' at the intersection of a row and a column
 
-OpenRefine displays a limited number of rows of data at one time. Ten is the default. 
-Adjust the number of rows displayed by selecting 5, 10, 25 or 50 at the top left of the table of data. 
-Note the program is working on ALL rows - the limit of the number of rows displayed saves memory being wasted.
-
-You can navigate through the records by using the *previous/next/first/last* navigation options at the top right of the table of data.
+- A limited number of rows of data are displayed to save on memory, however the program is working on ALL rows.
+- Adjust the number of rows displayed by selecting 5, 10, 25 or 50 at the top left of the table of data.
 
 ### Working with data in OpenRefine
 
+- Navigate through records using *previous/next/first/last* navigation options at the top right of the table of data
 - Use the drop-down menus at the top of each column to work with data
 - Selecting an option in a particular column (e.g., to make a change to the data), affects all the cells in that column 
 - Perform changes one column at a time, even when making changes across several columns 
@@ -36,7 +36,7 @@ This is useful when working with `xml` files, MARC records, as well as `csv` fil
 
 ### Undo / Redo
 
-OpenRefine provides Undo and Redo operations to make changes to your data work, no matter how far along you have gone. Find out how this works in the [GREL](https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html) activities. 
+OpenRefine provides Undo and Redo operations to make changes to your data work, going back to your very first action. Find out how this works in the [GREL](https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html) activities. 
 
 ### Saving projects
 
