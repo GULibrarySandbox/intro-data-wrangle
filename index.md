@@ -11,10 +11,10 @@ layout: default
 
 Learn basic data cleaning techniques in this self-paced online workshop such as:
 
-- exploring tabular data through facets and filters
-- implementing ‘tidy data' principles
-- cleaning, organising and preparing data for analysis
-- extracting and using a script to automate wrangling on similar data
+- Exploring tabular data through facets and filters
+- Implementing ‘tidy data' principles
+- Cleaning, organising and preparing data for analysis
+- Extracting and using a script to automate wrangling on similar data
 
 Download the software and dataset, do activities and watch videos to guide you through the lessons. Give yourself around 2 1/2 hours to complete the workshop.
 
