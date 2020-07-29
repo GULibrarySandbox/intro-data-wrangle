@@ -9,7 +9,7 @@ nav: true
 
 -----
 
-Transformations in OpenRefine enable manipulations of data in columns. Such types of changes include:
+Transformations in OpenRefine enable manipulations of data in columns. These include:
 
 - Splitting data from a single column into multiple columns (e.g., splitting an address into multiple parts) to enable tidy data – one variable per column.
 
@@ -19,7 +19,7 @@ Transformations in OpenRefine enable manipulations of data in columns. Such type
 
 It can be difficult to read, ingest and process data which has multiple values within the one cell.  OpenRefine has methods to split those values into multiple cells or columns. OpenRefine has several ways to do this. 
 
-First we will split data using the in-built programming capabilities of GREL within OpenRefine.  GREL stands for *General Refine Expression Language*. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
+First we will split data using the in-built programming capabilities of General Refine Expression Language (GREL) within OpenRefine. GREL expressions are a little like Excel formulae, although they tend to focus on text manipulations rather than numeric functions.
 
 {% capture text %}
 Look at the data in  `Suburb_PostCode`  column.  It has more than one value in each cell. The values include the *suburb name* and a *postcode* inside brackets (). This is difficult to process and analyse and needs splitting to make the data tidy. Before we can split the values into individual columns, we first need to remove the extra characters such as *brackets* and *leading (or trailing) whitespace*.
@@ -105,7 +105,7 @@ Let's perform the earlier clean up steps and customised text faceting for  `Subu
 - select  `Suburb_PostCode`  column.  All three cleaning steps can be performed by combining  `value.replace`  expressions.
 - select  `Edit cells > Transform ...`
 - in the Expression box, enter  `value.replace("(", "").replace(")", "").replace(", ", ",")`
-- click *Preview*
+- *Preview* the changes
 - click `OK`{% endcapture %} {% include card.md header="Activity - join up GREL commands" text=text %}
 
 -----
@@ -116,7 +116,7 @@ Let's split  `Suburb_PostCode`  data into two columns one for suburb and another
 
 {% capture text %}
 - select  `Suburb_PostCode`  column
-- edit  `Column > Split`  into several columns ...
+- select `Edit Column > Split into several columns` ...
 - keep the Separator as a comma, and split the data into two columns
 - leave the *After Splitting* boxes checked
 - Click  `OK`.
