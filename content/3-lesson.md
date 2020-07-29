@@ -12,8 +12,8 @@ OpenRefine displays data in a tabular format, similar to how you might view data
 - Individual bits of data or 'values' live in 'cells' at the intersection of a row and a column
 
 OpenRefine displays a limited number of rows of data at one time. Ten is the default. 
-You can adjust the number of rows displayed by choosing between 5, 10, 25 and 50 at the top left of the table of data. 
-However, the program is working on ALL rows - the limit of the number of rows displayed saves memory being wasted.
+Adjust the number of rows displayed by selecting 5, 10, 25 or 50 at the top left of the table of data. 
+Note the program is working on ALL rows - the limit of the number of rows displayed saves memory being wasted.
 
 You can navigate through the records by using the *previous/next/first/last* navigation options at the top right of the table of data.
 
