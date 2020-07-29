@@ -48,8 +48,9 @@ It runs inside your Web browser, but no internet connection is needed to use it,
 - create scripts to automate and repeat the processes on other datasets{% endcapture %} {% include card.md header="Document & repeat steps" text=text %}
 
 Explore the two figures below to see examples of messy and clean tabular data.
-*Messy data example*
+
+**Messy data example**
 {% include figure.html img="MessyData.JPG" alt="Messy Data" caption="Messy Data" width="100%" %}
 
-*Clean data example*
+**Clean data example**
 {% include figure.html img="TidyData.JPG" alt="Clean Data" caption="Clean Data" width="100%" %}
