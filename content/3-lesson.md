@@ -19,15 +19,16 @@ You can navigate through the records by using the *previous/next/first/last* nav
 
 ### Working with data in OpenRefine
 
-Most options to work with data in OpenRefine are accessed from drop-down menus at the top of the data columns. 
-When you select an option in a particular column (e.g., to make a change to the data), it will affect all the 
-cells in that column. To make changes across several columns, perform the change one column at a time.
+- Use the drop-down menus at the top of each column to work with data
+- Selecting an option in a particular column (e.g., to make a change to the data), affects all the cells in that column 
+- Perform changes one column at a time, even when making changes across several columns 
+
 
 ###  Rows and Records
 
 OpenRefine has two modes of viewing data: 'Rows' and 'Records'. 
-- Rows mode: each row represents a single record in the data set.  
-- Records mode, OpenRefine can link together multiple rows as belonging to the same Record. 
+- Rows mode: each row represents a single record in the data set
+- Records mode, OpenRefine can link together multiple rows as belonging to the same record 
 
 This is useful when working with `xml` files, MARC records, as well as `csv` files. We will see an example of this later.
 
