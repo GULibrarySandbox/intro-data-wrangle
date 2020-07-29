@@ -17,12 +17,10 @@ A common use case for your data might be where you want to know how many times a
 A 'Facet' groups all the like values that appear in a column, and then allows you to filter the data by these values 
 and edit the values for a number of records in one go.
 
-The first facet to explore is  `Text facet`. It groups all the identical text values in a column and lists each value 
-and the number of records in which that value appears. Facet information always appears in the left-hand panel 
-in the OpenRefine interface.
-
 
 {% capture text %}
+The first facet to explore is  `Text facet`. It groups all the identical text values in a column and lists each value and the number of records in which that value appears. Facet information always appears in the left-hand panel in the OpenRefine interface.
+
 Here we will use faceting to look at the values represented in the  `Crash_Month` column.
 
 - Scroll over to the  `Crash_Month` column.
@@ -53,7 +51,7 @@ In this next activity you want to limit to a sub-set of this data, with records 
 - Use  `include`  function again for values  `Medical treatment and Minor injury`  (with 35002 results).
 - Remove all these records from the dataset.
 - Select  `All column > Edit rows > Remove all matching rows`.
-- These two variables are now displayed in red and missing counts. Click reset.
+- These two variables are now displayed in red and missing counts. Click  `reset`.
 - How many records are now available? (27528)
 - Close the facet.{% endcapture %} {% include card.md header="Activity - amending data through Facets" text=text %}
 
@@ -77,12 +75,12 @@ As well as 'Text facets' and 'timeline facets', OpenRefine also supports other t
 - Customized facets
 - Scatterplot facets
 
-`Numeric`  and `Scatterplot`  facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in Examining Numbers in OpenRefine.
+`Numeric`  and `Scatterplot`  facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine] (https://griffithunilibrary.github.io/intro-data-wrangle/content/7-lesson.html).
 
 `Custom`  facets provide a range of different facets including:
 
 - `Word`  facet - this breaks down text into words and counts the number of records each word appears in
-- `Duplicates`  facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'tru' facet if the value in the selected column is an exact match for a value in the same column in another row.
+- `Duplicates`  facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row.
 - `Text length`  facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
 - `Facet by blank`  - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
@@ -116,7 +114,7 @@ Clustering is a very powerful tool for identifying and fixing datasets which con
 
 OpenRefine has several clustering algorithms built in. Let's experiment with them.
 {% capture text %}
-- Create a Text Facet for  `Crash_Nature`, scroll through the list.  You will notice a number of values that are likely mis-typed entries due to various factors.
+- Create a Text Facet for  `Crash_Nature`, scroll through the list.  You will notice a number of values that are likely mis-typed entries.
 - Click the  `Cluster`  button, on the top right of the facet. In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
 - Select the  `key collision`  method and  `fingerprint`  keying function. It should identify one cluster with 3 value options.
 - Click the  `Merge?`  box beside the cluster, then click  `Merge Selected and Re-cluster`  to apply the corrections to the dataset.
@@ -124,11 +122,11 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
 - How many choices are now shown in the facet? Depending on your merges, there may be 13 choices remaining.
 - Close the facet.{% endcapture %} {% include card.md header="Activity – fixing errors via Clustering" text=text %}
-{% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 with find *Struck by external load* with *Struck by internal load*.  These are valid values, there is no need to merge these.
+{% capture alert %}*Note:* Some merges are not necessary. Nearest neighbour with a radius of 2.0 will find *Struck by external load* with *Struck by internal load*.  These are valid values, there is no need to merge these.
 {% endcapture %}
 {% include alert.md text=alert color="warning" %}
 
-{% include button.md text="Watch video" link="https://vimeo.com/412536655/cfbb96bb38" color="info" %}
+{% include button.md text="Watch this video to learn these functions" link="https://vimeo.com/412536655/cfbb96bb38" color="info" %}
 
 ----
 
