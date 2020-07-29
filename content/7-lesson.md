@@ -40,4 +40,4 @@ Note that closing a facet will not undo the edits you have made to the cells in 
 - Use the  `Undo / Redo`  function to reverse these changes.{% endcapture %} {% include card.md header="Activity - numeric facet" text=text %}
 
 
-{% include button.md text="Watch video" link="https://vimeo.com/412607607/08380e8150" color="info" %}
+{% include button.md text="Watch this video to learn the steps" link="https://vimeo.com/412607607/08380e8150" color="info" %}
