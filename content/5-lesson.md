@@ -3,7 +3,7 @@ title: Filter
 nav: true
 ---
 
-# Filtering and Sorting
+# Filter and Sort
 
 ------
 
@@ -20,7 +20,7 @@ There are many records in this dataset and you can filter them to work on a subs
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview, description and count of all of the data that is currently selected, while filtering allows you to select a subset of your data by a string - of text in this case - for analysis or cleaning.
 
-{% include button.md text="Watch video" link="https://vimeo.com/412533690/80c2ae057e" color="info" %}
+{% include button.md text="Watch this video on filtering" link="https://vimeo.com/412533690/80c2ae057e" color="info" %}
 
 ------
 
@@ -97,7 +97,7 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Examine results for similarities
 - Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
 
-{% include button.md text="Watch video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
+{% include button.md text="See the steps in this video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
 
 ----
 
