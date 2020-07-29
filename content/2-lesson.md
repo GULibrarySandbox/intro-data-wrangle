@@ -26,7 +26,7 @@ Select `Create a project`.
 
 If OpenRefine does not automatically open within your browser after launch, point your browser at `http://127.0.0.1:3333/` or `http://localhost:3333` to launch the program.{% endcapture %}
 {% include card.md header="Launch OpenRefine" text=text %}
-{% capture alert %}Note: Keep the terminal window hosting Java open the in the background.{% endcapture %} {% include alert.md text=alert color="warning" %}
+{% capture alert %}Note: Keep the terminal window hosting Java open in the background.{% endcapture %} {% include alert.md text=alert color="warning" %}
 {% include figure.html img="ORJava.JPG" alt="Terminal Java" caption="Keep the terminal window open when using OpenRefine" width="75%" %}
 
 -----
@@ -56,7 +56,7 @@ Or
 
 ### Data preview
 
-OpenRefine gives you a preview to show you how it has interpreted the file you have uploaded or imported. If your data was tab- rather than comma-delimited, the preview might look strange. 
+OpenRefine gives you a preview to show you how it has interpreted the file you have uploaded or imported. If your data was tab-delimited rather than comma-delimited, the preview might look strange. 
 - Be sure the correct separator is displayed in the box shown. 
 - If you have made any changes, click `Update Preview` (bottom left). 
 - If the wrong file is displaying, click `<<Start Over` (upper left).
