@@ -27,7 +27,7 @@ You may also need to install Java for Windows
 - Choose the folder location. Save the file to `c:\program files\`
 - Close all applications including the browser.
 - Double-click on the saved file icon to start the installation process.
-  [https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/](https://www.howtogeek.com/129178/why-does-64-bit-windows-need-a-separate-program-files-x86-folder/){% endcapture %}
+ {% endcapture %}
 {% include card.md header="Windows" text=text %}
   
 {% capture text %}
@@ -67,7 +67,7 @@ The  data used in these lessons is a smaller, four-year subset and has had chang
 - Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
 - to your `Downloads` folder. We will then import the data into OpenRefine.
 
-Alternately, when you launch OpenRefine in the *Create* lesson:
+Alternately, when you launch OpenRefine in the [*Create*](https://griffithunilibrary.github.io/intro-data-wrangle/content/2-lesson.html) lesson:
 
 - import the data directly from a *Web address*
 - using this link [https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv](https://raw.githubusercontent.com/stapletonsl/ClassData2020/master/QLDtrafficAccidentsOpenDataVer1.csv){% endcapture %}
