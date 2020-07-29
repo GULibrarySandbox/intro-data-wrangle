@@ -9,8 +9,6 @@ nav: true
 
 OpenRefine works with a variety of file types, including tab separated (`tsv`), comma separated (`csv`), Excel (`xls, xlsx`), `JSON`, `XML`, `RDF as XML`, and `Google Spreadsheets`. See the [OpenRefine Importers page](https://github.com/OpenRefine/OpenRefine/wiki/Importers) for more information.
 
-{% include button.md text="Watch video" link="https://vimeo.com/412189056/0d9031def0" color="info" %}
-
 ----
 
 {% capture text %}
@@ -72,5 +70,5 @@ There are options to indicate whether the dataset has column headers included an
 
 {% include figure.html img="ORCreateProject.png" alt="Create Project" caption="Create a project in OpenRefine" width="75%" %}
 
-{% include button.md text="Follow the above steps on this video" link="https://vimeo.com/412533690/80c2ae057e" color="info" %}
+{% include button.md text="Watch the steps above on this video" link="https://vimeo.com/412189056/0d9031def0" color="info" %}
 
