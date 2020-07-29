@@ -36,7 +36,7 @@ The downloaded  `tar.gz`  file is a folder of files which have been compress
 For *Windows-based* machines, you may have to install a utility like *7-zip* to expand the zip file.{% endcapture %} {% include card.md header="Activity - export a project" text=text %}
 
 
-{% include button.md text="Watch video" link="https://vimeo.com/412609640/189a2a8c7f" color="info" %}
+{% include button.md text="Learn to export with this video" link="https://vimeo.com/412609640/189a2a8c7f" color="info" %}
 
 ----
 
