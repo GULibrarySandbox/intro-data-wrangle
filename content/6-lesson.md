@@ -56,7 +56,7 @@ It is easy to re-use GREL expressions, as OpenRefine provides a history of comma
 - preview to check correctness
 - click  `OK`.{% endcapture %} {% include card.md header="Activity - repeat transformation steps by using History" text=text %}
 
-{% include button.md text="Watch video" link="https://vimeo.com/412605118/b259dd9e3c" color="info" %}
+{% include button.md text="See the steps taken in this video" link="https://vimeo.com/412605118/b259dd9e3c" color="info" %}
 
 -----
 
