@@ -136,4 +136,4 @@ Let's edit the column headings to represent the data more accurately.
 - repeat the process for  `Suburb_PostCode 2`  to rename the column to  `Postcode` .{% endcapture %} {% include card.md header="Activity - joining up GREL commands" text=text %}
 
 
-{% include button.md text="Watch video" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
+{% include button.md text="Watch this video for instructions" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
