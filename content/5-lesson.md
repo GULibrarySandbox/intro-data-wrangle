@@ -12,11 +12,11 @@ nav: true
 There are many records in this dataset and you can filter them to work on a subset. Let's explore filtering by a word within the text values of a column.
 
 {% capture text %}
-- click the down arrow next to  `Suburb_PostCode > Text filter`.  A filter box will appear in the left margin
-- type *'heights'* and press return. There are 208 matching rows of the original 27528 rows (and these rows are selected for the subsequent steps).
-- limit the results to one of the suburbs with *'Heights'* in the name. There are a couple of possibilities.
-- do  `Facet > Text facet`  on the  `Suburb_PostCode`  column after filtering. This will show 20 suburbs with names that match your filter.
-- to restrict to only one of these suburbs, select one to include.{% endcapture %} {% include card.md header="Activity - filter to work on a subset of data" text=text %}
+- Click the down arrow next to  `Suburb_PostCode > Text filter`.  A filter box will appear in the left margin
+- Type *'heights'* and press return. There are 208 matching rows of the original 27528 rows (and these rows are selected for the subsequent steps).
+- Limit the results to one of the suburbs with *'Heights'* in the name. There are a couple of possibilities.
+- Do  `Facet > Text facet`  on the  `Suburb_PostCode`  column after filtering. This will show 20 suburbs with names that match your filter.
+- To restrict to only one of these suburbs, select one to include.{% endcapture %} {% include card.md header="Activity - filter to work on a subset of data" text=text %}
 
 Faceting and filtering look very similar. A good distinction is that faceting gives you an overview, description and count of all of the data that is currently selected, while filtering allows you to select a subset of your data by a string - of text in this case - for analysis or cleaning.
 
@@ -29,14 +29,14 @@ Faceting and filtering look very similar. A good distinction is that faceting gi
 Using `Crash_Street`, let's explore data using sorting.
 
 {% capture text %}
-- in  `Crash_Street`  column select drop-down menu and  `Sort`.   Options include:
-  - sort by text
-  - sort by numbers
-  - sort by dates
-  - sort by booleans (TRUE or FALSE values). 
-- select  `text`
-- additional options will then appear for you to fine-tune your sorting, select  `a-z`
-- you can also specify what order to put *blanks* and *errors* in the sorted results.
+- In  `Crash_Street`  column select drop-down menu and  `Sort`.   Options include:
+  - Sort by text
+  - Sort by numbers
+  - Sort by dates
+  - Sort by booleans (TRUE or FALSE values). 
+- Select  `text`
+- Additional options will then appear for you to fine-tune your sorting, select  `a-z`
+- You can also specify what order to put *blanks* and *errors* in the sorted results.
 -  `Ok`
 
 When performing the first sort, you will notice the drop-down menu for the selected column shows  `Sort ...` 
@@ -46,7 +46,7 @@ If you try to re-sort a column that you have already used, the drop-down menu ch
   - `Sort > Sort ...` - This option enables you to modify your original sort.
   - `Sort > Reverse` - This option allows you to reverse the order of the sort.
   - `Sort > Remove sort` - This option allows you to undo your sort.
-- remove this sort.{% endcapture %} {% include card.md header="Activity - sort by text" text=text %}
+- Remove this sort.{% endcapture %} {% include card.md header="Activity - sort by text" text=text %}
 
 ### Sort by multiple columns
 
@@ -59,17 +59,17 @@ To restart the sorting process with a specific column, check the  `sort by thi
 If you go back to one of the already sorted columns and select `Sort > Remove sort` , that column is removed from your multiple sort. If it is the only column sorted, then data reverts to its original order.
 
 {% capture text %}
-- sort  `Crash_Street` again, select  `Sort... > text and a-z`
-- add an additional sort by  `Crash_Street_Intersection`, select  `Sort... > text and a-z`
-- examine the first page of results for multiple accidents at the same location
-- remove sort{% endcapture %} {% include card.md header="Activity - sort by multiple columns" text=text %}
+- Sort  `Crash_Street` again, select  `Sort... > text and a-z`
+- Add an additional sort by  `Crash_Street_Intersection`, select  `Sort... > text and a-z`
+- Examine the first page of results for multiple accidents at the same location
+- Remove sort{% endcapture %} {% include card.md header="Activity - sort by multiple columns" text=text %}
 
 Sorts in OpenRefine are temporary. If you remove the Sort, the data will go back to its original unordered state.
 
 The Sort drop-down menu at the top of the screen also lets you amend the existing sort to:
-- reverse the sort order
-- remove existing sorts
-- reorder rows permanently.
+- Reverse the sort order
+- Remove existing sorts
+- Reorder rows permanently.
 
 ### Find and fix missing values by sorting
 
