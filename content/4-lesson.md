@@ -8,9 +8,9 @@ nav: true
 
 ### Facets
 Faceting is a useful feature of OpenRefine and can help you:
-- get an overview of the data in a project
-- get counts of data in specific columns
-- help you identify missing, misspelled or inconsistent data.
+- Get an overview of the data in a project
+- Get counts of data in specific columns
+- Help you identify missing, misspelled or inconsistent data.
 
 A common use case for your data might be where you want to know how many times a particular value appears in a column in your data.
 
@@ -63,29 +63,23 @@ You can also edit values using the facets feature.
 - Do you now have seven values for the days of the week? 
 - Close facet{% endcapture %} {% include card.md header="Activity – fixing errors with Facets" text=text %}
 
-{% include button.md text="watch this video to work through the activities" link="https://vimeo.com/412540178/a0a65e0c0f" color="info" %}
+{% include button.md text="Watch this video to work through the activities" link="https://vimeo.com/412540178/a0a65e0c0f" color="info" %}
 
 ----
 
 #### More on Facets
 
-As well as 'Text facets' and 'timeline facets', OpenRefine also supports other types of facet. These include:
+As well as  `Text facets`  and  `timeline facets` , OpenRefine also supports other types of facets. These include:
 
-- Numeric facets
-- Customized facets
-- Scatterplot facets
-
-`Numeric`  and `Scatterplot`  facets display graphs instead of lists of values. The numeric facet graph includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. These facets are explored further in [Examining Numbers in OpenRefine] (https://griffithunilibrary.github.io/intro-data-wrangle/content/7-lesson.html).
-
-`Custom`  facets provide a range of different facets including:
-
-- `Word`  facet - this breaks down text into words and counts the number of records each word appears in
-- `Duplicates`  facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row.
-- `Text length`  facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
-- `Facet by blank`  - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
+- `Numeric facets`  : displays a graph and includes 'drag and drop' controls you can use to set a start and end range to filter the data displayed. Explore these later in the lesson on [Examining Numbers in OpenRefine](https://griffithunilibrary.github.io/intro-data-wrangle/content/7-lesson.html).
+- ` Customized facets`  provide a range of different facets including:
+  - `Word`  facet - this breaks down text into words and counts the number of records each word appears in
+  - `Duplicates`  facet - this results in a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if the value in the selected column is an exact match for a value in the same column in another row.
+  - `Text length`  facet - creates a numeric facet based on the length (number of characters) of the text in each row for the selected column. This can be useful for spotting incorrect or unusual data in a field where specific lengths are expected (e.g., if the values are expected to be years, any row with a text length of more than 4 for that column is likely to be incorrect.)
+  - `Facet by blank`  - a binary facet of 'true' or 'false'. Rows appear in the 'true' facet if they have no data present in that column. This is useful when looking for missing data.
 
 {% capture text %}
-Use a  `Custom facet`  to find out how many records are missing crash type data.
+Use a  `Customized facet`  to find out how many records are missing crash type data.
 {% include modal.md button="Quiz 1 Solution" color="success" title="Quiz 1 Solutions" text="Select  `Facet > Customized facets > Facet by Blank or Null`. 
 Result 13" %}{% endcapture %} {% include card.md header="Quiz 1. What data is missing in  `Crash_Type`  column?" text=text %}
 
