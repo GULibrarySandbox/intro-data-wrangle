@@ -49,6 +49,8 @@ When you click this, you will see a list of the existing projects and can click 
 
 {% include button.md text="Watch this video to see OpenRefine's layout" link="https://vimeo.com/412542634/f5b1ced9b9" color="info" %}
 
+-----
+
 <p align="center">
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/2-lesson.html"><-- BACK</a> |
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/4-lesson.html">NEXT --></a>
