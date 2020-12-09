@@ -82,4 +82,4 @@ Help is available from eResearch and Library specialists at Griffith University.
 <p align="center">
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/"><-- BACK</a> |
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/1-intro.html">NEXT --></a>
-</p>
+</p> 
