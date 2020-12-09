@@ -19,7 +19,7 @@ To transform cells in the  `Crash_Hour`  column to numbers:
 
 The  `Crash_Hour`  values change from left-justified to right-justified, and from black to green in colour.{% endcapture %} {% include card.md header="Activity - tranforming text to numbers" text=text %}
 
-Other common transformations include changing letter case, data formats and more. Take a look at the other options with `Edit cells> Common transforms >`.
+Other common transformations include changing letter case, data formats and more. Take a look at the other options with `Edit cells>  Common transforms`.
 
 #### Numeric facets
 
