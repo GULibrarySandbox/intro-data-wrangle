@@ -63,7 +63,7 @@ OpenRefine gives you a preview to show you how it has interpreted the file you h
 
 There are options to indicate whether the dataset has column headers included and whether OpenRefine should skip a number of rows before reading the data. 
 - Choose `UTF8` as the method of encoding as this should convert any 'smart' formatting into plain text.
-- Make sure `Trim leading & trailing whitespace from strings` is checked. This will automatically remove any whitespace fromt the beginning or end of data strings or cells, making the data computer readible. Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer.
+- Make sure `Trim leading & trailing whitespace from strings` is checked. This will automatically remove any whitespace from the beginning or end of data strings or cells, making the data computer readible. Words with spaces at the beginning or end are particularly hard for we humans to tell from strings, but the blank characters will make a difference to the computer.
 - Ensure the first row is used to create the column headings by checking the box `Parse next 1 line(s) as column headers`
 - Make sure the `Parse cell text into numbers, dates,` ... box is not checked, so OpenRefine doesn't try to automatically detect numbers. Parsing in this context refers to the way the software will interpret the format of the data.
 - Give the project a meaningful name such as `TrafficAccidentsCleanV1`
