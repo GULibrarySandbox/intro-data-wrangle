@@ -97,12 +97,15 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Examine results for similarities
 - Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
 
+
 {% include button.md text="See the steps in this video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
 
+<p>
+</p>
 
 {% capture text %}
 There is another method you could use to find a missing value, that we have used, what is it?
-{% include modal.md button="Quiz 2 Solution" color="success" title="Quiz 2 Solutions" text="Select  `Facet > Customized facets > Facet by Blank or Null`." %}{% endcapture %} {% include card.md header="Quiz 2. Another method to find data is missing in  `Crash_Longitude`  column?" text=text %}
+{% include modal.md button="Quiz 2 Solution" color="success" title="Quiz 2 Solutions" text="Select  `Facet > Customized facets > Facet by Blank or Null`." %}{% endcapture %} {% include card.md header="Quiz 2. Another method to find missing data in Crash_Longitude column?" text=text %}
 
 -----
 
