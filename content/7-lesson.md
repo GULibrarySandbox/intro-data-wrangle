@@ -41,3 +41,10 @@ Note that closing a facet will not undo the edits you have made to the cells in 
 
 
 {% include button.md text="Watch this video to learn the steps" link="https://vimeo.com/412607607/08380e8150" color="info" %}
+
+-----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/8-lesson.html">NEXT --></a>
+</p>
