@@ -10,6 +10,7 @@ nav: true
 
 {% capture text %}
 - Check that you have Chrome, Chromium, Opera or MS Edge browser installed and set as your default browser. OpenRefine runs in your default browser. It will also run in Firefox, however some performance issues have been noted. It will not run correctly in Internet Explorer.
+{% endcapture %}
 {% include card.md header="Browser Requirements" text=text %}
 
 {% capture text %}
