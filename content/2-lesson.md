@@ -72,6 +72,9 @@ There are options to indicate whether the dataset has column headers included an
 
 {% include button.md text="Watch the steps above on this video" link="https://vimeo.com/412189056/0d9031def0" color="info" %}
 
+
+-----
+
 <p align="center">
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/1-intro.html"><-- BACK</a> |
   <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/3-lesson.html">NEXT --></a>
