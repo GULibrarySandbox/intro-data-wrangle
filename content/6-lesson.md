@@ -137,3 +137,11 @@ Let's edit the column headings to represent the data more accurately.
 
 
 {% include button.md text="Watch this video for instructions" link="https://vimeo.com/412605933/d8be2a9d15" color="info" %}
+
+
+-----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/5-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/7-lesson.html">NEXT --></a>
+</p>
