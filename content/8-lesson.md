@@ -56,3 +56,10 @@ The dataset should now be the same as your other cleaned dataset.
 For convenience, we used the same dataset.  You could use this process to clean related datasets.
 
 For example, you could apply your changes to data that you had collected over different time periods or data that was collected by different researchers (provided everyone uses the same column headings). The data in this file was generated from a database, so the column headings for subsequent data downloads should be the same. 
+
+-----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/7-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/9-lesson.html">NEXT --></a>
+</p>
