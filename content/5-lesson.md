@@ -99,6 +99,7 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 
 {% include button.md text="See the steps in this video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
 
+
 {% capture text %}
 There is another method you could use to find a missing value, that we have used, what is it?
 {% include modal.md button="Quiz 2 Solution" color="success" title="Quiz 2 Solutions" text="Select  `Facet > Customized facets > Facet by Blank or Null`." %}{% endcapture %} {% include card.md header="Quiz 2. Another method to find data is missing in  `Crash_Longitude`  column?" text=text %}
