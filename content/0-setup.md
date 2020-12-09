@@ -7,31 +7,23 @@ nav: true
 -----
 
 ## Download & install software
+
 {% capture text %}
-- Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
+- Check that you have Chrome, Chromium, Opera or MS Edge browser installed and set as your default browser. OpenRefine runs in your default browser. It will also run in Firefox, however some performance issues have been noted. It will not run correctly in Internet Explorer.
+{% include card.md header="Browser Requirements" text=text %}
+
+{% capture text %}
+- OpenRefine requires Java to be installed.  Check if your computer has Java and if not, select the *Windows kit with embedded Java* when downloading the software.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory by right-clicking and selecting `Extract ...`.   Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
 - Move the folder to `c:\program files` (you may need administrator privileges to do this)
 - Launch OpenRefine by clicking the `openrefine.exe` file (this will launch a command prompt window, but you can ignore that and wait for the browser to launch)
 - If you are using a different browser, or OpenRefine does not automatically open for you, point your browser at [http://127.0.0.1:3333/](http://127.0.0.1:3333/) or `http://localhost:3333` to launch the program.
-
-**Windows Troubleshooting**
-
-You may also need to install Java for Windows
-- Check if your Windows is 32-bit or 64-bit help via: [https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq](https://support.microsoft.com/en-au/help/15056/windows-32-64-bit-faq).
-- Select appropriate bit download
-  - 32-bit via: [https://www.java.com/en/download/](https://www.java.com/en/download/) or
-  - 64-bit via: [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp) and 
-    select Windows Offline (64-bit) version
-- Choose the folder location. Save the file to `c:\program files\`
-- Close all applications including the browser.
-- Double-click on the saved file icon to start the installation process.
  {% endcapture %}
 {% include card.md header="Windows" text=text %}
   
 {% capture text %}
-- Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download latest software version from [http://openrefine.org](http://openrefine.org)
 - Drag icon into `Applications folder`
 - Doubleclick to launch OpenRefine
@@ -44,7 +36,6 @@ You may also need to install Java for Windows
 {% include card.md header="Mac" text=text %}
 
 {% capture text %}
-- Check that you have Firefox or Chrome browsers installed and set as your default browser. OpenRefine runs in your default browser. It will not run correctly in Internet Explorer.
 - Download the latest software version from [http://openrefine.org](http://openrefine.org). 
 - Unzip the downloaded file into a directory. Name that directory something like OpenRefine.
 - Go to your newly created OpenRefine directory.
