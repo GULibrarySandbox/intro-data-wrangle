@@ -98,3 +98,11 @@ Find the missing `Crash_Longitude` value for record *243929*. There are a few po
 - Copy and paste the missing `Crash_Longitude`  value to record *243929*.{% endcapture %} {% include card.md header="Activity - find & fix missing values by sorting" text=text %}
 
 {% include button.md text="See the steps in this video" link="https://vimeo.com/412602729/e3da0ba711" color="info" %}
+
+-----
+
+<p align="center">
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/4-lesson.html"><-- BACK</a> |
+  <a href="https://griffithunilibrary.github.io/intro-data-wrangle/content/6-lesson.html">NEXT --></a>
+</p>
+
