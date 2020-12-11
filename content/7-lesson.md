@@ -27,7 +27,7 @@ Sometimes there are non-numeric values or blanks within a column which may repre
 
 {% capture text %}
 - Go to the  `Postcode`  column which was transformed to numbers.
-- Edit a few cells, replacing the numbers with text, such as "bc", and make a few other cells blank.
+- Edit a few cells, replacing the numbers with text, such as "abc", and make a few other cells blank. Change the `Data type` to `text` before applying.
 - Apply a numeric facet to the column you edited.
 
 Notice that there are several checkboxes in this facet,  `Numeric`,  `Non-numeric`,  `Blank`,  `Error`.
