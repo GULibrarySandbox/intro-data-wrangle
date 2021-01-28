@@ -56,7 +56,7 @@ The original dataset presents 17 years of traffic accidents, their location, typ
 The  data used in these lessons is a smaller, four-year subset and has had changes made for training purposes. 
 
 {% capture text %}
-- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/owncloud/index.php/s/NphyCS2OvSIZe8E)
+- Download the `QLDtrafficAccidentsOpenDataVer1.csv` dataset from [Griffith University’s Research Storage Space](https://research-storage.griffith.edu.au/owncloud/index.php/s/4Yn7Hdeb2NNqYMF)
 - To your `Downloads` folder. We will then import the data into OpenRefine.
 
 Alternately, when you launch OpenRefine in the [*Create*](https://griffithunilibrary.github.io/intro-data-wrangle/content/2-lesson.html) lesson:
