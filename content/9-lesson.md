@@ -45,11 +45,11 @@ After you have expanded the file, look at the files that appear in this folder.
 
 What files are here? What information do you think these files contain?
 
-{% include modal.md button="Quiz 2 Solution" color="success" title="Quiz 2 Solution" text="- a history folder which contains a collection of zip files. Each of these files itself contains a `change.txt` file. 
+{% include modal.md button="Quiz 3 Solution" color="success" title="Quiz 3 Solution" text="- a history folder which contains a collection of zip files. Each of these files itself contains a `change.txt` file. 
 
 - These `change.txt` files are the records of each individual transformation that you performed on your data.
 
-- a data.zip file. When expanded, this zip file includes a file called `data.txt` which is a copy of your raw data. You may also see other files." %}{% endcapture %} {% include card.md header="Quiz 2. What files are in the exported project?" text=text %}
+- a data.zip file. When expanded, this zip file includes a file called `data.txt` which is a copy of your raw data. You may also see other files." %}{% endcapture %} {% include card.md header="Quiz 3. What files are in the exported project?" text=text %}
 
 ----
 
