@@ -96,7 +96,7 @@ OpenRefine has several clustering algorithms built in. Let's experiment with the
 {% capture text %}
 - Create a Text Facet for  `Crash_Nature`, scroll through the list.  You will notice a number of values that are likely mis-typed entries.
 - Click the  `Cluster`  button, on the top right of the facet. In the resulting pop-up window, different edit options and algorithms are available via drop down boxes.
-- Select the  `key collision`  method and  `fingerprint`  keying function. It should identify one cluster with 3 value options.
+- Select the  `key collision`  method and  `fingerprint`  keying function. It should identify one cluster with 2 value options.
 - Click the  `Merge?`  box beside the cluster, then click  `Merge Selected and Re-cluster`  to apply the corrections to the dataset.
 - Try selecting different Methods and Keying Functions combinations, to see if new merges are suggested.
 - There may be a few more clusters, to fix misspellings, typos, capitalisation, hyphens, etc.
