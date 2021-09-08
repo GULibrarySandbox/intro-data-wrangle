@@ -27,7 +27,7 @@ Any exported file will be saved to your default  `Download`  directory.{% en
 You can also export project files as a whole. This is helpful if you wanted to send your raw data and cleaning steps to a collaborator, or share the information as a supplement to a publication.
 
 {% capture text %}
-- Click the  `Export`  button in the top right and select  `Export project`.
+- Click the  `Export`  button in the top right and select  `OpenRefine project archive to file`.
 
 A  `tar.gz`  file will download to your default  `Download`  directory. Depending on your browser, you may have to confirm that you want to save the file. 
 
