@@ -82,7 +82,7 @@ As well as  `Text facets`  and  `timeline facets` , OpenRefine also supports oth
 {% capture text %}
 Use a  `Customized facet`  to find out how many records are missing crash type data.
 {% include modal.md button="Quiz 1 Solution" color="success" title="Quiz 1 Solutions" text="Select  `Facet > Customized facets > Facet by Blank or Null`. 
-Result 7" %}{% endcapture %} {% include card.md header="Quiz 1. What data is missing in  `Crash_Type`  column?" text=text %}
+Result 7.  Why not `Facet by empty string`? NULL is usually used for 'not known' vs empty string is usually used for 'it should be empty'." %}{% endcapture %} {% include card.md header="Quiz 1. What data is missing in  `Crash_Type`  column?" text=text %}
 
 --------
 
