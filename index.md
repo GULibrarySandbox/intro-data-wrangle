@@ -27,3 +27,5 @@ Hosted by [Griffith University Library](https://www.griffith.edu.au/library), {{
 ------
 
 {% include credits.html %}
+
+Griffith University - CRICOS Provider Number 00233E.
