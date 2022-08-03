@@ -61,4 +61,6 @@ Want to continue your learning?  Go to [Advanced Data Wrangling with OpenRefine]
 
 ### Was this helpful? Let us know.
 
-[complete this quick survey](https://prodsurvey.rcs.griffith.edu.au/prodls200/index.php/589544?FeedbackSource=IntroOpenRefineWorkshopLink&Discipline=Research&Client=&newtest=Y)
+{% include button.md text="Complete this quick survey" link="(https://prodsurvey.rcs.griffith.edu.au/prodls200/index.php/589544?FeedbackSource=IntroOpenRefineWorkshopLink&Discipline=Research&Client=&newtest=Y)" color="info" %}
+
+
